@@ -1,6 +1,6 @@
 # Lightning Network
 
-[[|！300x268(https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/17_node_mesh_network.svg/300px-17_node_mesh_network.svg.png)(https://en.wikipedia.org/wiki/File:17_node_mesh_network.svg)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/17_node_mesh_network.svg/300px-17_node_mesh_network.svg.png)
 
 通過支付渠道的理想化[網絡網絡](https://en.wikipedia.org/wiki/Mesh_network)進行路由。
 
