@@ -94,9 +94,9 @@ BOLT(閃電技術基礎)[規格](https://github.com/lightningnetwork/lightning-r
 * [MIT]的非商業實施(https://en.wikipedia.org/wiki/MIT_Media_Lab)[數字貨幣計劃](https://dci.mit.edu/)
 * [Blockstream](https://en.wikipedia.org/wiki/Blockstream)的[C]中的c-lightning [實現](https://github.com/ElementsProject/lightning)(https：//zh .wikipedia.org/維基/C_language)
 * [Scala]中的ACINQ的eclair [實現](https://github.com/ACINQ/eclair)(https://en.wikipedia.org/wiki/Scala_programming_language)
-*閃電實驗室的[實施](https://github.com/lightningnetwork/lnd)在[轉](https://en.wikipedia.org/wiki/Golang)
+* 閃電實驗室的[實施](https://github.com/lightningnetwork/lnd)在[轉](https://en.wikipedia.org/wiki/Golang)
 
-##參考文獻
+## 參考文獻
 
 1. ** [^](https://en.wikipedia.org/wiki/Lightning_Network#cite_ref-spec_1-0) ** [“lightning-rfc：Lightning Network Specifications”](https://github.com/lightningnetwork/閃電-RFC)。 2017年9月25日 - 通過GitHub。
 2. ** [^](https://en.wikipedia.org/wiki/Lightning_Network#cite_ref-2) ** [“Joseph Poon和Thaddeus Dryja的閃電網白皮書”](https://lightning.network/閃電般的網絡paper.pdf)(PDF)。 2019年1月6日。
