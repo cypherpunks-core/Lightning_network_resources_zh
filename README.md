@@ -68,7 +68,7 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 
 #### 主要論文 | Main paper
 * :page_facing_up:[“比特幣閃電網絡”：論文-簡中](https://github.com/ChenPoWei/bitcoincn/blob/master/%E6%AF%94%E7%89%B9%E5%B8%81%E9%97%AA%E7%94%B5%E7%BD%91%E7%BB%9C%E7%99%BD%E7%9A%AE%E4%B9%A6%EF%BC%9A%E5%8F%AF%E6%89%A9%E5%B1%95%E7%9A%84%20off-chain%20%E5%8D%B3%E6%97%B6%E6%94%AF%E4%BB%98%EF%BC%88%E4%B8%AD%E6%96%87%EF%BC%89.pdf)
-* :page_facing_up:[“比特幣閃電網絡”：論文(PDF)DRAFT Version 0.5.9.1](https://lightning.network/lightning-network-paper.pdf)
+* :page_facing_up:[“比特幣閃電網絡”：論文-英文](https://lightning.network/lightning-network-paper.pdf)
 
 **摘要**。比特幣協議可以涵蓋當今所有電子支付系統中的全球金融交易量，而沒有單個監管第三方持有資金或要求參與者在家庭寬帶連接上具有任何不僅僅是計算機。提出了一種分散的系統，通過微支付渠道(例如支付渠道或交易渠道)的網絡發送交易，其價值轉移發生在區塊鏈之外。如果比特幣交易可以使用新的sighash類型進行簽名，這種類型可以解決延展性問題，那麼這些轉移可能發生在轉移路線上的不信任方之間，這些合同可以通過比特幣區塊鏈在不合作或敵對參與者的情況下通過廣播強制執行，通過一系列遞減時間。
 
