@@ -44,7 +44,6 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 主要來源：
 * [BITCOIN LIGHTNING NETWORK](https://lnroute.com/)
 * [awesome-lightning-network](https://github.com/bcongdon/awesome-lightning-network)
-* [Lightning App Directory](https://dev.lightning.community/lapps/)
 * [lightning.network](https://lightning.network/)
 
 ### 閃電網路概述 | Lightning Network Overview
@@ -103,6 +102,7 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 
 ### 閃電網路 app
 * [These are the Top 10 Lightning Apps out right now](https://kintu.co/lightning-apps/)
+* [Lightning App Directory](https://dev.lightning.community/lapps/)
 
 #### 桌面界面 | Desktop Interfaces
 
