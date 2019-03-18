@@ -1,5 +1,5 @@
 # 閃電網路資源整理 
-* [Wikipedia Lightning Network](/article/wikipedia-Lightning-Network.md)
+
 ## 比特幣資源
 比特幣是一種基於去中心化，採用點對點網路與共識主動性，開放原始碼，以區塊鏈作為底層技術的加密貨幣，比特幣由中本聰於2008年10月31日發表論文
 
@@ -53,6 +53,7 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 * [動區-五分鐘就看懂：圖說閃電網路](https://www.blocktempo.com/lightning-network/) 2018-04-05
 * [動區-為何比特幣閃電網路的可視化器（Visualizer）跟看到的不太一樣?](https://www.blocktempo.com/bitcoin-lightning-visualizer-dont-seem-to-be-what-they-seem) 2018-04-15
 * [動區-閃電網路是比特幣的未來？——解決方案全攻略](https://www.blocktempo.com/the-future-of-bitcoin-what-lightning-could-look-like) 
+* [Wikipedia Lightning Network](/article/wikipedia-Lightning-Network.md)
 * [Lightning network/Payment channel](https://drive.google.com/file/d/0B7rTe1bpN56HeDJfZFBjcWk4Tm8/view) by Brian Po-han Chen
 * [ Raiden Network — Ethereum 區塊鏈支付通道](https://medium.com/taipei-ethereum-meetup/raiden-network-ethereum-%E5%8D%80%E5%A1%8A%E9%8F%88%E6%94%AF%E4%BB%98%E9%80%9A%E9%81%93-c44cea954e9b)
 * [閃電網路和雷電網路：擴容方案本身的擴容問題](https://medium.com/cryptocow/lightning-vs-raiden-1-can-watchtowers-and-monitoring-services-scale-f3b59906114b?fbclid=IwAR35vjbewlP6Y5y8tmynZt1KszE5L2pegT7GJbtpFnkHeZF7K35UGBbOMRg)
