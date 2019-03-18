@@ -10,7 +10,7 @@
 
 為了按預期執行，Lightning Network需要在第1層區塊鏈中修復[交易延展性](https://en.wikipedia.org/wiki/Malleability_(加密))，例如[隔離證人](https：//en比特幣中的.wikipedia.org/wiki/Segregated_Witness)(* SegWit *)。[[1]](https://en.wikipedia.org/wiki/Lightning_Network#cite_note-spec-1)
 
-##內容
+## 內容
 
 * [1History](https://en.wikipedia.org/wiki/Lightning_Network#History)
   * [1.12018 DDoS攻擊](https://en.wikipedia.org/wiki/Lightning_Network#2018_DDoS_attacks)
@@ -22,7 +22,7 @@
 * [4References](https://en.wikipedia.org/wiki/Lightning_Network#References)
 * [5外部鏈接](https://en.wikipedia.org/wiki/Lightning_Network#External_links)
 
-##歷史
+## 歷史
 
 Joseph Poon和Thaddeus Dryja在2016年發表了Lightning白皮書。[[2]](https://en.wikipedia.org/wiki/Lightning_Network#cite_note-2)
 
@@ -44,7 +44,7 @@ Lightning Network概念於2018年3月獲得[移動支付](https://en.wikipedia.o
 
 在2018年3月20日，Lightning Network節點面臨[分佈式拒絕服務(DDoS)](https://en.wikipedia.org/wiki/Denial-of-service_attack)攻擊，該攻擊從大約200個節點離線發送利用盡可能多的節點連接以防止任何新連接。[[5]](https://en.wikipedia.org/wiki/Lightning_Network#cite_note-TrustNodes-5)2月初一個月，[比特幣核心](https://en.wikipedia.org/wiki/Bitcoin_Core)開發人員Peter Todd表示，Lightning協議很可能“在其目前的版本中被證明易受DoS [拒絕服務]攻擊。”根據密碼學家的說法，這會給項目的點對點和區塊鏈級別帶來危險。
 
-##設計
+## 設計
 
 ！[文件：Lightning Network Explained.webm](https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Lightning_Network_Explained.webm/220px--Lightning_Network_Explained.webm.jpg)
 
@@ -52,11 +52,11 @@ Lightning Network概念於2018年3月獲得[移動支付](https://en.wikipedia.o
 
 支付渠道允許參與者相互轉賬，而無需在[區塊鏈](https://en.wikipedia.org/wiki/Blockchain)上公開所有交易。這是通過懲罰不合作的參與者來完成的。在打開頻道時，參與者必須提交金額(在*資金交易*中，* *是區塊鏈上的*)。基於時間的腳本擴展，如[CheckSequenceVerify](https://en.wikipedia.org/wiki/CheckSequenceVerify)和[CheckLockTimeVerify](https://en.wikipedia.org/wiki/CheckLockTimeVerify)，可以實現懲罰。
 
->“如果我們假設比特幣區塊鏈上的大型渠道網絡，並且所有比特幣用戶都通過在比特幣區塊鏈上打開至少一個渠道來參與此圖表，則可以在此內部創建近乎無限量的交易比特幣區塊鏈過早播出的唯一交易是不合作的頻道交易對手。“[[6]](https://en.wikipedia.org/wiki/Lightning_Network#cite_note-6)
+> “如果我們假設比特幣區塊鏈上的大型渠道網絡，並且所有比特幣用戶都通過在比特幣區塊鏈上打開至少一個渠道來參與此圖表，則可以在此內部創建近乎無限量的交易比特幣區塊鏈過早播出的唯一交易是不合作的頻道交易對手。“[[6]](https://en.wikipedia.org/wiki/Lightning_Network#cite_note-6)
 
 CheckSequenceVerify(CSV)[比特幣改進提案](https://en.wikipedia.org/wiki/Bitcoin_Improvement_Proposal)詳細說明瞭如何使用CSV實現哈希時間鎖定合同並在Lightning中使用。[[7]](https：//en.wikipedia.org/wiki/Lightning_Network#cite_note-7)
 
-###承諾交易
+### 承諾交易
 
 如果[Alice和Bob](https://en.wikipedia.org/wiki/Alice_and_Bob)有付款渠道，則他們都有“最新”*承諾交易*。承諾交易根據Alice和Bob之間的正確分配從資金交易中劃分資金。例如，如果Alice擁有1.0 mBTC(等於0.001比特幣或100000 [satoshis](https://en.wikipedia.org/wiki/Bitcoin#Units))並且Bob擁有該渠道中的1.0 mBTC，則承諾交易將劃分為以這種方式的總渠道資金。
 
@@ -79,16 +79,16 @@ CheckSequenceVerify(CSV)[比特幣改進提案](https://en.wikipedia.org/wiki/Bi
 7. Alice提供{\ displaystyle R_ {A_ {1}}}！[{\ displaystyle R_ {A_ {1}}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/16f17818e76941dfcb5646eb7156609a9de53160)，使{\ displaystyle A_ {1}}無效！[A_ {1}](https://wikimedia.org/api/rest_v1/media/math/render/svg/6bc2435b217c1a0f46f8a517ffa225c6f9440e81);然後她可以刪除{\ displaystyle A_ {1}}！[A_ {1}](https://wikimedia.org/api/rest_v1/media/math/render/svg/6bc2435b217c1a0f46f8a517ffa225c6f9440e81)。
 8. Bob提供{\ displaystyle R_ {B_ {1}}}！[{\ displaystyle R_ {B_ {1}}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/a0f2e388adeb19e7a53c6a4facfc8a57ea47ba76)，使{\ displaystyle B_ {1}}無效！[B_ {1}](https://wikimedia.org/api/rest_v1/media/math/render/svg/1fa091eb428443c9c5c5fcf32a69d3665c89e00c);然後他可以刪除{\ displaystyle B_ {1}}！[B_ {1}](https://wikimedia.org/api/rest_v1/media/math/render/svg/1fa091eb428443c9c5c5fcf32a69d3665c89e00c)。
 
-###限制
+### 限制
 
 Lightning Network由兩個節點之間的雙向支付渠道組成，這些渠道結合了[智能合約](https://en.wikipedia.org/wiki/Smart_contract)。如果任何一方在任何一方丟棄頻道，頻道將關閉並在區塊鏈上結算。
 
 由於Lightning Network的爭議機制的性質要求所有用戶不斷觀看區塊鏈的欺詐行為，因此開發了“瞭望塔”的概念，可以將信任外包給瞭望塔節點以監控欺詐。
 
-###路由
+### 路由
 關於路由的原始白皮書表明“最終，通過優化，網絡將看起來很像通信銀行網絡，或第1層ISP”。
 
-##實現
+## 實現
 BOLT(閃電技術基礎)[規格](https://github.com/lightningnetwork/lightning-rfc/blob/master/00-introduction.md)於2016年底起草。從那裡開始，已經實施了多項實施說規格：
 
 * [MIT]的非商業實施(https://en.wikipedia.org/wiki/MIT_Media_Lab)[數字貨幣計劃](https://dci.mit.edu/)
@@ -106,7 +106,7 @@ BOLT(閃電技術基礎)[規格](https://github.com/lightningnetwork/lightning-r
 6. ** [^](https://en.wikipedia.org/wiki/Lightning_Network#cite_ref-6) ** [“比特幣閃電網絡：可擴展的離線即時付款”](https：//閃電。網絡/閃電網絡paper.pdf)(PDF)。 * lightning.network *。 2016年1月14日。
 7. ** [^](https://en.wikipedia.org/wiki/Lightning_Network#cite_ref-7) ** [“bips：Bitcoin Improvement Proposals”](https://github.com/bitcoin/bips) 。 2017年9月25日 - 通過GitHub。
 
-＃＃ 外部鏈接
+# 外部鏈接
 
 
 * [lightning.network](https://lightning.network/)
