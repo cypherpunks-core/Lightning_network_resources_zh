@@ -85,10 +85,10 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 
 #### 其他論文與規範 | Other papers and specifications
 
-* [閃電網路規範](https://github.com/lightningnetwork/lightning-rfc)
-* [LND API參考](http://api.lightning.community/)
-* [可部署的閃電白皮書](https://github.com/ElementsProject/lightning/blob/master/doc/deployable-lightning.pdf)
-* [比特幣微支付信道網路的可擴展資金](https://www.tik.ee.ethz.ch/file/a20a865ce40d40c8f942cf206a7cba96/Scalable_Funding_Of_Blockchain_Micropayment_Networks%20(1).pdf)
+* :page_facing_up:[閃電網路規範](https://github.com/lightningnetwork/lightning-rfc)
+* :page_facing_up:[LND API參考](http://api.lightning.community/)
+* :page_facing_up:[可部署的閃電白皮書](https://github.com/ElementsProject/lightning/blob/master/doc/deployable-lightning.pdf)
+* :page_facing_up:[比特幣微支付信道網絡的可擴展資金](https://www.tik.ee.ethz.ch/file/a20a865ce40d40c8f942cf206a7cba96/Scalable_Funding_Of_Blockchain_Micropayment_Networks%20(1).pdf)
 
 ### 實現 | Implementations
 
