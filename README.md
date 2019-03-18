@@ -47,7 +47,8 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 * [BITCOIN LIGHTNING NETWORK](https://lnroute.com/)-資源和信息指南
 * [awesome-lightning-network](https://github.com/bcongdon/awesome-lightning-network)-為開發人員和加密愛好者提供的精彩Lightning Network項目列表
 * [lightning.network](https://lightning.network/)
-* [blockstream LN](https://www.blockstream.com/lightning/)
+* [Blockstream LN](https://www.blockstream.com/lightning/)
+* [ACINQ](https://acinq.co/)
 
 ### 閃電網路概述 | Lightning Network Overview
 * [Binance-什麼事閃電網路？](/article/Binance-區塊鏈/什麼是閃電網絡.md)
@@ -136,13 +137,13 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 
 #### 瀏覽器 |  Explorers
 * [acinq.co](https://explorer.acinq.co/)
-* [1ML](https://1ml.com/) -  1ML資源管理器(mainnet + testnet)
+* [1ML](https://1ml.com/) -  閃電網絡搜索和分析引擎
+* [Lightblock](https://lightblock.me) - 閃電網絡搜索和分析引擎
+* [Lightning network explorer](https://explorer.acinq.co/)  - 可視化閃電網路拓普
+* [chemicstry/recksplorer](https://gist.github.com/bretton/798ec38165ffabc719d91e0f4f67552d) - 網絡視圖​​往往是來自單個節點或少量節點選擇的網絡視圖。它們不是網絡的完整視圖。這是不可能實現的。即使組合了許多節點視圖，它仍然是不完整的。
+* [xsb/lngraph](https://github.com/xsb/lngraph) - lngraph將Lightning Network數據導入Neo4j，用於本地探索您的節點及其網絡視圖。這不是一個公共資源管理器。
+* [Robtex比特幣Lightning Explorer](https://www.robtex.com/lightning/node/) -  統計閃電節點數、殭屍節點數、活動節點數、活動節點數24h、活動節點數1w、活動節點數1m、總開放通道數、總封閉頻道、總頻道容量。
 * [itcoinExchangeRate.org (Bitcoin 匯率)](https://bitcoinexchangerate.org/lightning) -  Lightning網路瀏覽器(testnet和mainnet)
-* [Lightblock](https://lightblock.me) - 閃電網路資源管理器主網。
-* [Lightning network explorer](https://explorer.acinq.co/) -  Lightning網路瀏覽器(testnet)
-* [資源管理器列表](https://gist.github.com/bretton/798ec38165ffabc719d91e0f4f67552d) - 可視化工具和指標網站的元列表
-* [lngraph](https://github.com/xsb/lngraph) - 使用Neo4j瀏覽器的個人私人Lightning Network資源管理器。
-* [Robtex比特幣Lightning Explorer](https://www.robtex.com/lightning/node/) -  Robtex比特幣Lightning Explorer(主網)
 
 ## 文章 | article
 
