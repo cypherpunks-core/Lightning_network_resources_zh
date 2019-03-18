@@ -109,28 +109,28 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 
 #### 桌面界面 | Desktop Interfaces
 
-* [lightning-app](https://github.com/lightninglabs/lightning-app) - 跨平台Lightning桌面應用程序
-* [lnd-gui](https://github.com/alexbosworth/lnd-gui) -  Lightning MacOS GUI錢包
-* [eclair-node-gui](https://github.com/ACINQ/eclair) -  Lightning的跨平台桌面GUI
-* [zap-desktop](https://github.com/LN-Zap/zap-desktop) -  Lightning Network桌面應用程序
-* [Presto](https://github.com/icota/presto) - 基於c-lightning的桌面錢包
-* [Lightning Peach錢包](https://github.com/LightningPeach/lightning-peach-wallet) -  Bitfury Lightning錢包
-* [spark-wallet](https://github.com/shesek/spark-wallet) - 用於c-lightning的最小GUI; 可用作網路，移動和桌面應用程序
-* [電壓](https://github.com/benharold/voltage) - 電壓是c-lightning的macOS GUI
+* [lightninglabs/lightning-app](https://github.com/lightninglabs/lightning-app) - 跨平台Lightning桌面應用程序
+* [alexbosworth/lnd-gui](https://github.com/alexbosworth/lnd-gui) -  Lightning MacOS GUI錢包
+* [ACINQ/eclair](https://github.com/ACINQ/eclair) -  Lightning的跨平台桌面GUI
+* [LN-Zap/zap-desktop](https://github.com/LN-Zap/zap-desktop) -  Lightning Network桌面應用程序
+* [icota/presto](https://github.com/icota/presto) - 基於c-lightning的桌面錢包
+* [LightningPeach/lightning-peach-wallet](https://github.com/LightningPeach/lightning-peach-wallet) -  Bitfury Lightning錢包
+* [shesek/spark-wallet](https://github.com/shesek/spark-wallet) - 用於c-lightning的最小GUI; 可用作網路，移動和桌面應用程序
+* [benharold/voltage](https://github.com/benharold/voltage) - 電壓是c-lightning的macOS GUI
 
 #### Web界面 | Web Interfaces
 
-* [發現錢包](https://github.com/Lightning-Family/Discovery-Wallet) - 網路保管錢包; [現場演示](https://wallet.lightning.family)
-* [fulmo](https://github.com/marzig76/fulmo) - 簡約的c-lightning UI
+* [Lightning-Family/Discovery-Wallet](https://github.com/Lightning-Family/Discovery-Wallet) - 網路保管錢包; [現場演示](https://wallet.lightning.family)
+* [marzig76/fulmo](https://github.com/marzig76/fulmo) - 簡約的c-lightning UI
 * [Joule](http://lightningjoule.com) - 一個鍍鉻擴展程序，支持與閃電應用程序的付款和其他交互(類似於MetaMask)
-* [kugelblitz](https://github.com/cdecker/kugelblitz) - 一個簡單的用戶界面，用於c-lightning守護進程閃電和bitcoind
-* [lncli-web](https://github.com/mably/lncli-web) - 用NodeJS / Angular編寫的lnd守護進程的輕量級Web客戶端
-* [Ride The Lightning](https://github.com/ShahanaFarooqui/RTL) - 用NodeJS / Angular 7編寫的LND守護進程的Web客戶端
+* [cdecker/kugelblitz](https://github.com/cdecker/kugelblitz) - 一個簡單的用戶界面，用於c-lightning守護進程閃電和bitcoind
+* [mably/lncli-web](https://github.com/mably/lncli-web) - 用NodeJS / Angular編寫的lnd守護進程的輕量級Web客戶端
+* [ShahanaFarooqui/RTL](https://github.com/ShahanaFarooqui/RTL) - 用NodeJS / Angular 7編寫的LND守護進程的Web客戶端
 
 #### 移動應用程序 | Mobile applications
 
-* [rawtx](https://github.com/rawtxapp/rawtxapp) - 閃電網路錢包(Android，iOS); [主頁](https://rawtx.com)
-* [Swift Lightning](https://github.com/biscottigelato/SwiftLightning) - 在LND for iOS之上構建LN錢包
+* [rawtxapp/rawtxapp](https://github.com/rawtxapp/rawtxapp) - 閃電網路錢包(Android，iOS); [主頁](https://rawtx.com)
+* [biscottigelato/SwiftLightning](https://github.com/biscottigelato/SwiftLightning) - 在LND for iOS之上構建LN錢包
 * [比特幣閃電錢包](https://play.google.com/store/apps/details?id=com.lightning.walletapp) - 基於Eclair的基於Android的Lightning Network兼容錢包([testnet版本](https：//play.google.com/store/apps/details?id=com.lightning.wallet))
 * [Eclair Mobile](https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2)
 
