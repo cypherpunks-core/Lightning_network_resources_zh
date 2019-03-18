@@ -1,4 +1,4 @@
-# 閃電網路資源整理 | Lightning network resources
+# :zap:閃電網路資源整理 | :zap:Lightning network resources
 ![](https://img.shields.io/badge/Powered%20by-Chen%20Po%20Wei-blue.svg)
 ![](bitcoin-lightning-network.png)
 ## 比特幣資源 | Bitcoin resources
