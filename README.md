@@ -91,6 +91,8 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 * :page_facing_up:[LND API參考](http://api.lightning.community/)
 * :page_facing_up:[可部署的閃電白皮書](https://github.com/ElementsProject/lightning/blob/master/doc/deployable-lightning.pdf)
 * :page_facing_up:[比特幣微支付信道網絡的可擴展資金](https://www.tik.ee.ethz.ch/file/a20a865ce40d40c8f942cf206a7cba96/Scalable_Funding_Of_Blockchain_Micropayment_Networks%20(1).pdf)
+* [lightningnetwork/lightning-rfc](https://github.com/lightningnetwork/lightning-rfc)-Lightning Network進行中規範
+
 
 ### :zap:實現 | Implementations
 
@@ -139,6 +141,10 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 	* [rawtxapp/rawtxapp](https://github.com/rawtxapp/rawtxapp) - 閃電網路錢包(Android，iOS); [主頁](https://rawtx.com)
 	* [biscottigelato/SwiftLightning](https://github.com/biscottigelato/SwiftLightning) - 在LND for iOS之上構建LN錢包
 	* [比特幣閃電錢包](https://play.google.com/store/apps/details?id=com.lightning.walletapp) - 基於Eclair的基於Android的Lightning Network兼容錢包([testnet版本](https：//play.google.com/store/apps/details?id=com.lightning.wallet))
+* **Android & iOS**
+	* [ZeusLN/zeus](https://github.com/ZeusLN/zeus)-Zeus基於TypeScript和React-Native構建。它可以在iOS和Android上運行。
+	* [BlueWallet](https://github.com/BlueWallet/BlueWallet)-使用React Native和BlockCypher API構建。
+	> [在Mac OSX上運行LNDHub](https://medium.com/@jpthor/running-lndhub-on-mac-osx-5be6671b2e0c)-如何在Mac OSX上部署和運行LNDHub實例並連接到BlueWallet。
 
 
 #### 遊戲
