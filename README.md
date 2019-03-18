@@ -60,3 +60,65 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 ## 文章 | article
 
 * [Bitcoin Lightning Network常見問題解答](/article/Bitcoin-Lightning-Network-FAQ.md)
+
+## 巴比特
+
+### 比特幣閃電網路：可擴充套件的 Off-Chain即時支付
+作者：Joseph Poon和Thaddeus Dryja
+這可能是2015年裡最具影響力的論文，Poon和Dryja展示了他們的發明：比特幣閃電網路，它可以允許任何數量的參與者通過雙方支付通道，即時地進行交易。
+
+閃電網路交易也是正常的比特幣交易，但是，除了極少數的情況下，這些交易實際上並不是在比特幣區塊鏈上發生的。因為大量的交易資料是私人儲存的，閃電網路交易會比on-chain的比特幣交易更為經濟，從而使得比特幣網路能夠負擔地起小額支付。
+
+Poon和Dryja的願景可能很快就會實現，因為Blockstream正在努力推動閃電網路，使得該協議成為可能。
+
+* [紅藥丸或藍藥丸：比特幣XT vs 閃電方案](https://www.8btc.com/article/67529)2015-09-17 18:40
+* [閃電網路究竟是什麼，現在怎麼樣了？](https://www.8btc.com/article/67843)2015-09-22 10:18
+* [揭穿關於閃電網路11個常見的謬見](https://www.8btc.com/article/70615)2015-10-20 14:36
+* [閃電網路與以太坊結合建立支付渠道的構想及其前景](https://www.8btc.com/article/71843)2015-10-31 12:00
+* [閃電網路懷疑論](https://www.8btc.com/article/76591)2015-12-29 07:30
+* [***閃電網路非常偉大，但它也面臨各種類型的問題***](https://www.8btc.com/article/81289)2016-02-29 10:31
+* [閃電網路之我見：比特幣網路的飛躍](https://www.8btc.com/article/85257)2016-03-31 18:13
+* [比特幣閃電網路交易費用接近為零，交易吞吐量可擴充套件到百萬次每秒](https://www.8btc.com/article/85844)2016-04-07 22:41
+* [探索比特幣閃電網路的中心化風險](https://www.8btc.com/article/89255)2016-05-10 14:39
+* [***詳解最近大熱的閃電網路、雷電網路和CORDA***](https://www.8btc.com/article/92887)2016-06-12 12:26
+* [Flare閃電網路新路由系統白皮書釋出，讓節點路由更加高效（白皮書全文下載）](https://www.8btc.com/article/96081)2016-07-08 12:20
+* [美國約翰•霍普金斯大學釋出白皮書：匿名的鏈下輕量級交易Bolt實現高度隱私的小額支付（全文下載）](https://www.8btc.com/article/98771)2016-08-02 13:46
+* [***專訪閃電網路創始人：閃電網路最新進展及面臨問題***](https://www.8btc.com/article/105225)2016-09-30 16:22
+* [閃電網路所面臨的難題還遠未解決](https://www.8btc.com/article/109763)2016-11-17 15:56
+* [閃電網路如何為比特幣網路新增隱私層？](https://www.8btc.com/article/113116)2016-12-20 12:13
+* [閃電網路協議開發者Russell：沒有隔離見證的閃電網路是不優雅的](https://www.8btc.com/article/113250)2016-12-21 11:14
+* [數學證明：閃電網路無法成為去中心化的比特幣擴容方案](https://www.8btc.com/article/132567)2017-07-04 08:45
+* [Gavin Andresen：閃電網路是高度中心化的](https://www.8btc.com/article/137798)2017-08-17 
+* [***如何在Linux系統建立自己的閃電網路節點和通道***](https://www.8btc.com/article/156211)2018-01-24 
+* [Andreas Antonopoulos：關於閃電網路的六大誤解](https://www.8btc.com/article/163750)2018-02-23 08:22
+* [閃電網路對比特幣隱私性的利弊](https://www.8btc.com/article/165281)2018-02-26 
+* [***閃電網路入門：如何傳送你的第一筆交易？***](https://www.8btc.com/article/165568)2018-03-02
+* [比特幣的未來？淺析閃電網路的優勢及創新之處](https://www.8btc.com/article/181491)2018-03-25 10:45
+* [***Blockstream LApp周，八款閃電網路應用盤點***](https://www.8btc.com/article/186239)2018-03-30 18:41
+* [比特幣的閃電網路受到攻擊——這對它來說是福還是禍？](https://www.8btc.com/article/188223)2018-04-05 08:44
+* [***詳解閃電網路的歷史——從頭腦風暴到測試版問世***](https://www.8btc.com/article/189240)2018-04-09 09:39
+* [閃電網路+ NFC ？新方法將比特幣帶入零售業](https://www.8btc.com/article/195237)2018-04-19 07:43
+* [***比特幣的擴容之路：閃電網路未來是什麼樣的？***](https://www.8btc.com/article/202633)2018-05-07 08:44
+* [***閃電網路新技術出現：壓縮交易資料，保護使用者資金安全***](https://www.8btc.com/article/214475)2018-05-30 15:57
+* [***c-lightning beta版本上線，標誌著閃電網路成長和發展的重要一天***](https://www.8btc.com/article/226278)2018-06-26 13:34
+* [閃電網路入門：什麼是閃電網路？它是如何運作的？](https://www.8btc.com/article/242957)2018-08-08 08:38
+* [現在除了挖礦，你也可以通過閃電網路來賺取比特幣了](https://www.8btc.com/article/255731)2018-08-21 09:41
+* [***一文讀懂隔離見證***](https://www.8btc.com/article/265462)2018-09-03 15:33
+* [***閃電 vs. 雷電：瞭望塔可拓展嗎? （上）***](https://www.8btc.com/article/360567)2019-02-15 15:13
+* [***閃電 vs. 雷電：瞭望塔中的隱私保護方案 （中)***](https://www.8btc.com/article/368399)2019-03-02 10:00
+* [硬核乾貨 | 6000字讀懂閃電網路原理](https://www.8btc.com/article/362358)2019-02-18 22:10
+* [AMA | 康奈爾大學教授：閃電網路雖好，但至少存在這4個問題](https://www.8btc.com/article/363404)2019-02-20 17:57
+* [Blockstream釋出閃電網路軟體重大升級，增加最新‘外掛’功能](https://www.8btc.com/article/368520)2019-03-02 18:29
+
+## 閃電網路 app
+* [Lightning App Directory](https://dev.lightning.community/lapps/)
+* [These are the Top 10 Lightning Apps out right now](https://kintu.co/lightning-apps/)
+
+## 其他
+* [Lightning network/Payment channel](https://drive.google.com/file/d/0B7rTe1bpN56HeDJfZFBjcWk4Tm8/view) by Brian Po-han Chen
+* [【動區專題】五分鐘就看懂：圖說閃電網路](https://www.blocktempo.com/lightning-network/)
+* [ Raiden Network — Ethereum 區塊鏈支付通道](https://medium.com/taipei-ethereum-meetup/raiden-network-ethereum-%E5%8D%80%E5%A1%8A%E9%8F%88%E6%94%AF%E4%BB%98%E9%80%9A%E9%81%93-c44cea954e9b)
+* [閃電網路和雷電網路：擴容方案本身的擴容問題](https://medium.com/cryptocow/lightning-vs-raiden-1-can-watchtowers-and-monitoring-services-scale-f3b59906114b?fbclid=IwAR35vjbewlP6Y5y8tmynZt1KszE5L2pegT7GJbtpFnkHeZF7K35UGBbOMRg)
+* [閃電網路/支付通道於Ethereum的基礎介紹 | 陳昶吾 | Taipei Ethereum Meetup #4 - Scalability 議題
+](https://www.youtube.com/watch?v=pW615Yme2Ik)
+* [簡單解釋比特幣的閃電網路 (Bitcoin's Lightning Network, Simply Explained!)](https://tw.voicetube.com/videos/66936)
