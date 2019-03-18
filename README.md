@@ -1,9 +1,9 @@
-# 閃電網路資源整理 
+# 閃電網路資源整理 | Lightning network resources
 ![](bitcoin-lightning-network.png)
-## 比特幣資源
+## 比特幣資源 | Bitcoin resources
 比特幣是一種基於去中心化，採用點對點網路與共識主動性，開放原始碼，以區塊鏈作為底層技術的加密貨幣，比特幣由中本聰於2008年10月31日發表論文
 
-### 區塊鏈概述
+### 區塊鏈概述 | Blockchain overview
 
 * [區塊鏈技術漫談](區塊鏈技術漫談.md)
 
@@ -33,20 +33,16 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 
 ## 閃電網路協議 | Lightning Network Protocol
 > 閃電網絡（英語：Lightning Network）是工作在區塊鏈上（主要面向比特幣）的第二層支付協議。其設計目的是實現交易雙方的即時交易，而區塊鏈的交易頻率則受限於其容量。
-
 > 主要思路 -閃電網絡的主要思路為將大量交易放到比特幣區塊鏈之外進行。閃電網絡通過智能合約來完善鏈下的交易渠道。在整個交易中，智能合約起到了中介的重要角色，而區塊鏈則確保最終的交易結果被確認。
+> 閃電網路是一個提議端到端連接的雙向支付通道路由網路。像這樣的網路可以允許任何參與者在無需信任任何中間人的情況下將支付從通道發送到通道。[閃電網路](https://lightning.network/lightning-network-paper.pdf)  [由Joseph Poon和Thadeus Dryja於2015年2月首先描述]，建立在許多其他人提出和闡述的支付通道的概念上。
+> “閃電網路”是指用於路由支付通道網路的特定設計，現在已經由至少五個不同的開源團隊實現。獨立實現由一組互操作性標準進行協調：http://bit.ly/2rBHeoL[ Basics of Lightning Technology (BOLT) paper]。
+> 閃電網路的原型實現已由多個團隊發佈。目前，這些實現只能在testnet上運行，因為它們使用segwit，而沒有在主比特幣區塊鏈(mainnet)上激活。
 
 主要來源：
 * [BITCOIN LIGHTNING NETWORK](https://lnroute.com/)
 * [awesome-lightning-network](https://github.com/bcongdon/awesome-lightning-network)
 * [Lightning App Directory](https://dev.lightning.community/lapps/)
 * [lightning.network](https://lightning.network/)
-
-閃電網路是一個提議端到端連接的雙向支付通道路由網路。像這樣的網路可以允許任何參與者在無需信任任何中間人的情況下將支付從通道發送到通道。[閃電網路](https://lightning.network/lightning-network-paper.pdf)  [由Joseph Poon和Thadeus Dryja於2015年2月首先描述]，建立在許多其他人提出和闡述的支付通道的概念上。
-
-“閃電網路”是指用於路由支付通道網路的特定設計，現在已經由至少五個不同的開源團隊實現。獨立實現由一組互操作性標準進行協調：http://bit.ly/2rBHeoL[ Basics of Lightning Technology (BOLT) paper]。
-
-閃電網路的原型實現已由多個團隊發佈。目前，這些實現只能在testnet上運行，因為它們使用segwit，而沒有在主比特幣區塊鏈(mainnet)上激活。
 
 ### 閃電網路概述 | Lightning Network Overview
 * [Binance-什麼事閃電網路？](/article/Binance-區塊鏈/什麼是閃電網絡.md)
@@ -64,15 +60,13 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 
 ### 進階閃電網路 ｜ Advanced lightning network
 
-#### 論文
-
+#### 主要論文 | Main paper
+* [“比特幣閃電網絡”：論文-簡中](https://github.com/ChenPoWei/bitcoincn/blob/master/%E6%AF%94%E7%89%B9%E5%B8%81%E9%97%AA%E7%94%B5%E7%BD%91%E7%BB%9C%E7%99%BD%E7%9A%AE%E4%B9%A6%EF%BC%9A%E5%8F%AF%E6%89%A9%E5%B1%95%E7%9A%84%20off-chain%20%E5%8D%B3%E6%97%B6%E6%94%AF%E4%BB%98%EF%BC%88%E4%B8%AD%E6%96%87%EF%BC%89.pdf)
 * [“比特幣閃電網絡”：論文(PDF)DRAFT Version 0.5.9.1](https://lightning.network/lightning-network-paper.pdf)
 
 **摘要**。比特幣協議可以涵蓋當今所有電子支付系統中的全球金融交易量，而沒有單個監管第三方持有資金或要求參與者在家庭寬帶連接上具有任何不僅僅是計算機。提出了一種分散的系統，通過微支付渠道(例如支付渠道或交易渠道)的網絡發送交易，其價值轉移發生在區塊鏈之外。如果比特幣交易可以使用新的sighash類型進行簽名，這種類型可以解決延展性問題，那麼這些轉移可能發生在轉移路線上的不信任方之間，這些合同可以通過比特幣區塊鏈在不合作或敵對參與者的情況下通過廣播強制執行，通過一系列遞減時間。
 
-(該論文仍在進行中)
-
-#### 摘要
+#### 摘要 | abstract
 
 * [閃電網絡摘要](https://lightning.network/lightning-network-summary.pdf)
 * [閃電網絡技術設計概述](https://lightning.network/lightning-network-technical-summary.pdf)
@@ -85,11 +79,8 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 * [LN作為有向圖單資源信道拓撲
 ](https://docs.google.com/presentation/d/1G4xchDGcO37DJ2lPC_XYyZIUkJc2khnLrCaZXgvDN0U/edit?pref=2&pli=1#slide=id.g85f425098_0_2)
 
-#### 白皮書 | White Papers
+#### 其他論文與規範 | Other papers and specifications
 
-
-* [閃電網白皮書-簡中](https://github.com/ChenPoWei/bitcoincn/blob/master/%E6%AF%94%E7%89%B9%E5%B8%81%E9%97%AA%E7%94%B5%E7%BD%91%E7%BB%9C%E7%99%BD%E7%9A%AE%E4%B9%A6%EF%BC%9A%E5%8F%AF%E6%89%A9%E5%B1%95%E7%9A%84%20off-chain%20%E5%8D%B3%E6%97%B6%E6%94%AF%E4%BB%98%EF%BC%88%E4%B8%AD%E6%96%87%EF%BC%89.pdf)
-* [閃電網白皮書-英文](https://lightning.network/lightning-network-paper.pdf)
 * [閃電網路規範](https://github.com/lightningnetwork/lightning-rfc)
 * [LND API參考](http://api.lightning.community/)
 * [可部署的閃電白皮書](https://github.com/ElementsProject/lightning/blob/master/doc/deployable-lightning.pdf)
