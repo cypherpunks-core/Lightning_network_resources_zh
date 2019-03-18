@@ -96,7 +96,6 @@ BOLT(閃電技術基礎)[規格](https://github.com/lightningnetwork/lightning-r
 
 # 外部鏈接
 
-
 * [lightning.network](https://lightning.network/)
 * [lightningwiki.net](https://lightningwiki.net/)
 * [dci.mit.edu/lightning-network/](https://dci.mit.edu/lightning-network/)
