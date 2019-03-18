@@ -54,18 +54,18 @@ CheckSequenceVerify(CSV)[比特幣改進提案](https://en.wikipedia.org/wiki/Bi
 
 承諾交易實際上是一對不對稱的交易。 Alice的承諾交易包含兩個輸出：一個直接支付Bob，另一個是時間鎖定，可撤銷的輸出，最終支付Alice。如果Bob知道撤銷密鑰，則可撤銷可撤銷輸出。鮑勃的承諾交易恰恰相反：它直接向愛麗絲支付，但在時間鎖定，可撤銷的輸出下支付鮑勃的份額;如果Alice知道Bob的承諾交易的撤銷密鑰，她可以撤銷它。
 
-最初，Alice持有{\ displaystyle A_ {1}}！[A_ {1}](https://wikimedia.org/api/rest_v1/media/math/render/svg/6bc2435b217c1a0f46f8a517ffa225c6f9440e81)承諾交易，Bob持有{\ displaystyle B_ {1}}！[B_ {1}](https://wikimedia.org/api/rest_v1/media/math/render/svg/1fa091eb428443c9c5c5fcf32a69d3665c89e00c)承諾交易。 {\ displaystyle A_ {1}}的撤消鍵！[A_ {1}](https://wikimedia.org/api/rest_v1/media/math/render/svg/6bc2435b217c1a0f46f8a517ffa225c6f9440e81)，{\ displaystyle R_ {A_ { 1}}}！[{\ displaystyle R_ {A_ {1}}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/16f17818e76941dfcb5646eb7156609a9de53160)，由Alice知道，但不是鮑勃; {\ displaystyle B_ {1}}的撤銷鍵！[B_ {1}](https://wikimedia.org/api/rest_v1/media/math/render/svg/1fa091eb428443c9c5c5fcf32a69d3665c89e00c)，{\ displaystyle R_ {B_ { 1}}}！[{\ displaystyle R_ {B_ {1}}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/a0f2e388adeb19e7a53c6a4facfc8a57ea47ba76)，同樣只有Bob知道。
+最初，Alice持有{\displaystyleA_{1}}！[A_{1}](https://wikimedia.org/api/rest_v1/media/math/render/svg/6bc2435b217c1a0f46f8a517ffa225c6f9440e81)承諾交易，Bob持有{\displaystyleB_{1}}！[B_{1}](https://wikimedia.org/api/rest_v1/media/math/render/svg/1fa091eb428443c9c5c5fcf32a69d3665c89e00c)承諾交易。{\displaystyleA_{1}}的撤消鍵！[A_{1}](https://wikimedia.org/api/rest_v1/media/math/render/svg/6bc2435b217c1a0f46f8a517ffa225c6f9440e81)，{\displaystyleR_{A_{1}}}！[{\displaystyleR_{A_{1}}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/16f17818e76941dfcb5646eb7156609a9de53160)，由Alice知道，但不是鮑勃;{\displaystyleB_{1}}的撤銷鍵！[B_{1}](https://wikimedia.org/api/rest_v1/media/math/render/svg/1fa091eb428443c9c5c5fcf32a69d3665c89e00c)，{\displaystyleR_{B_{1}}}！[{\displaystyleR_{B_{1}}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/a0f2e388adeb19e7a53c6a4facfc8a57ea47ba76)，同樣只有Bob知道。
 
-假設Alice決定支付Bob 0.25 mBTC(在此之前，每個人擁有1 mBTC)：
+假設Alice決定支付Bob0.25mBTC(在此之前，每個人擁有1mBTC)：
 
-1. Alice創建了一個新的Bob交易，{\ displaystyle B_ {2}}！[B_ {2}](https://wikimedia.org/api/rest_v1/media/math/render/svg/199944d59dcc18842dfd1deab6000a1d1dadcbae)，分配Alice為0.75 mBTC，Bob為1.25 mBTC。
-2. Alice簽署{\ displaystyle B_ {2}}！[B_ {2}](https://wikimedia.org/api/rest_v1/media/math/render/svg/199944d59dcc18842dfd1deab6000a1d1dadcbae)並發送給Bob。
-3. Bob收到{\ displaystyle B_ {2}}！[B_ {2}](https://wikimedia.org/api/rest_v1/media/math/render/svg/199944d59dcc18842dfd1deab6000a1d1dadcbae)，簽名並保留。
-4. Bob創建一個新的Alice交易，{\ displaystyle A_ {2}}！[A_ {2}](https://wikimedia.org/api/rest_v1/media/math/render/svg/3ec73b8bc9abc3efb934f5a6ec2803713771f4bc)，分配Alice為0.75 mBTC，Bob為1.25 mBTC。
-5. Bob簽署{\ displaystyle A_ {2}}！[A_ {2}](https://wikimedia.org/api/rest_v1/media/math/render/svg/3ec73b8bc9abc3efb934f5a6ec2803713771f4bc)並發送給Alice。
-6. Alice收到{\ displaystyle A_ {2}}！[A_ {2}](https://wikimedia.org/api/rest_v1/media/math/render/svg/3ec73b8bc9abc3efb934f5a6ec2803713771f4bc)，簽名並保留。
-7. Alice提供{\ displaystyle R_ {A_ {1}}}！[{\ displaystyle R_ {A_ {1}}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/16f17818e76941dfcb5646eb7156609a9de53160)，使{\ displaystyle A_ {1}}無效！[A_ {1}](https://wikimedia.org/api/rest_v1/media/math/render/svg/6bc2435b217c1a0f46f8a517ffa225c6f9440e81);然後她可以刪除{\ displaystyle A_ {1}}！[A_ {1}](https://wikimedia.org/api/rest_v1/media/math/render/svg/6bc2435b217c1a0f46f8a517ffa225c6f9440e81)。
-8. Bob提供{\ displaystyle R_ {B_ {1}}}！[{\ displaystyle R_ {B_ {1}}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/a0f2e388adeb19e7a53c6a4facfc8a57ea47ba76)，使{\ displaystyle B_ {1}}無效！[B_ {1}](https://wikimedia.org/api/rest_v1/media/math/render/svg/1fa091eb428443c9c5c5fcf32a69d3665c89e00c);然後他可以刪除{\ displaystyle B_ {1}}！[B_ {1}](https://wikimedia.org/api/rest_v1/media/math/render/svg/1fa091eb428443c9c5c5fcf32a69d3665c89e00c)。
+1. Alice創建了一個新的Bob交易，{\displaystyleB_{2}}！[B_{2}](https://wikimedia.org/api/rest_v1/media/math/render/svg/199944d59dcc18842dfd1deab6000a1d1dadcbae)，分配Alice為0.75mBTC，Bob為1.25mBTC。
+2. Alice簽署{\displaystyleB_{2}}！[B_{2}](https://wikimedia.org/api/rest_v1/media/math/render/svg/199944d59dcc18842dfd1deab6000a1d1dadcbae)並發送給Bob。
+3. Bob收到{\displaystyleB_{2}}！[B_{2}](https://wikimedia.org/api/rest_v1/media/math/render/svg/199944d59dcc18842dfd1deab6000a1d1dadcbae)，簽名並保留。
+4. Bob創建一個新的Alice交易，{\displaystyleA_{2}}！[A_{2}](https://wikimedia.org/api/rest_v1/media/math/render/svg/3ec73b8bc9abc3efb934f5a6ec2803713771f4bc)，分配Alice為0.75mBTC，Bob為1.25mBTC。
+5. Bob簽署{\displaystyleA_{2}}！[A_{2}](https://wikimedia.org/api/rest_v1/media/math/render/svg/3ec73b8bc9abc3efb934f5a6ec2803713771f4bc)並發送給Alice。
+6. Alice收到{\displaystyleA_{2}}！[A_{2}](https://wikimedia.org/api/rest_v1/media/math/render/svg/3ec73b8bc9abc3efb934f5a6ec2803713771f4bc)，簽名並保留。
+7. Alice提供{\displaystyleR_{A_{1}}}！[{\displaystyleR_{A_{1}}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/16f17818e76941dfcb5646eb7156609a9de53160)，使{\displaystyleA_{1}}無效！[A_{1}](https://wikimedia.org/api/rest_v1/media/math/render/svg/6bc2435b217c1a0f46f8a517ffa225c6f9440e81);然後她可以刪除{\displaystyleA_{1}}！[A_{1}](https://wikimedia.org/api/rest_v1/media/math/render/svg/6bc2435b217c1a0f46f8a517ffa225c6f9440e81)。
+8. Bob提供{\displaystyleR_{B_{1}}}！[{\displaystyleR_{B_{1}}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/a0f2e388adeb19e7a53c6a4facfc8a57ea47ba76)，使{\displaystyleB_{1}}無效！[B_{1}](https://wikimedia.org/api/rest_v1/media/math/render/svg/1fa091eb428443c9c5c5fcf32a69d3665c89e00c);然後他可以刪除{\displaystyleB_{1}}！[B_{1}](https://wikimedia.org/api/rest_v1/media/math/render/svg/1fa091eb428443c9c5c5fcf32a69d3665c89e00c)。
 
 ### 限制
 
