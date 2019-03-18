@@ -44,8 +44,8 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 > 閃電網路的原型實現已由多個團隊發佈。目前，這些實現只能在testnet上運行，因為它們使用segwit，而沒有在主比特幣區塊鏈(mainnet)上激活。
 
 主要來源：
-* [BITCOIN LIGHTNING NETWORK](https://lnroute.com/)
-* [awesome-lightning-network](https://github.com/bcongdon/awesome-lightning-network)
+* [BITCOIN LIGHTNING NETWORK](https://lnroute.com/)-資源和信息指南
+* [awesome-lightning-network](https://github.com/bcongdon/awesome-lightning-network)-為開發人員和加密愛好者提供的精彩Lightning Network項目列表
 * [lightning.network](https://lightning.network/)
 
 ### 閃電網路概述 | Lightning Network Overview
