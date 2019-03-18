@@ -10,7 +10,7 @@
 ### 比特幣的基礎知識
 * 影-[比特幣和區塊鏈到底是啥？礦機挖礦咋回事？李永樂老師講比特幣(1)](https://www.youtube.com/watch?v=g_fSistU3MQ)
 
-* 影-[比特幣交易如何防偽？私鑰公鑰地址啥意思？李永樂老師講比特幣（2）](
+* 影-[比特幣交易如何防偽？私鑰公鑰地址啥意思？李永樂老師講比特幣(2)](
 https://www.youtube.com/watch?v=pbAVauYsqP0)
 * 影-[你有疑惑過比特幣(與其他加密貨幣)的運作原理嗎？(純英文)](https://youtu.be/bBC-nXj3Ng4)
 * 影-[你有疑惑過比特幣(與其他加密貨幣)的運作原理嗎？(簡中字幕)](https://www.bilibili.com/video/av12465079)
@@ -23,7 +23,7 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 
 “閃電網路”是指用於路由支付通道網路的特定設計，現在已經由至少五個不同的開源團隊實現。獨立實現由一組互操作性標準進行協調：http://bit.ly/2rBHeoL[ Basics of Lightning Technology (BOLT) paper]。
 
-閃電網路的原型實現已由多個團隊發佈。目前，這些實現只能在testnet上運行，因為它們使用segwit，而沒有在主比特幣區塊鏈（mainnet）上激活。
+閃電網路的原型實現已由多個團隊發佈。目前，這些實現只能在testnet上運行，因為它們使用segwit，而沒有在主比特幣區塊鏈(mainnet)上激活。
 
 ### 規格/白皮書 | Specifications / White Papers
 
@@ -45,9 +45,36 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 * [lightning-onion](https://github.com/lightningnetwork/lightning-onion) - 閃電網路的洋蔥路線微支付(Golang)
 * [ptarmigan](https://github.com/nayutaco/ptarmigan) - 符合C ++ BOLT標準的Lightning網路實現[Incomplete]
 
+###應用程序
 
+#### 桌面界面
 
-## 瀏覽器 |  Explorers
+* [lightning-app](https://github.com/lightninglabs/lightning-app) - 跨平台Lightning桌面應用程序
+* [lnd-gui](https://github.com/alexbosworth/lnd-gui) -  Lightning MacOS GUI錢包
+* [eclair-node-gui](https://github.com/ACINQ/eclair) -  Lightning的跨平台桌面GUI
+* [zap-desktop](https://github.com/LN-Zap/zap-desktop) -  Lightning Network桌面應用程序
+* [Presto](https://github.com/icota/presto) - 基於c-lightning的桌面錢包
+* [Lightning Peach錢包](https://github.com/LightningPeach/lightning-peach-wallet) -  Bitfury Lightning錢包
+* [spark-wallet](https://github.com/shesek/spark-wallet) - 用於c-lightning的最小GUI; 可用作網路，移動和桌面應用程序
+* [電壓](https://github.com/benharold/voltage) - 電壓是c-lightning的macOS GUI
+
+#### Web界面
+
+* [發現錢包](https://github.com/Lightning-Family/Discovery-Wallet) - 網路保管錢包; [現場演示](https://wallet.lightning.family)
+* [fulmo](https://github.com/marzig76/fulmo) - 簡約的c-lightning UI
+* [Joule](http://lightningjoule.com) - 一個鍍鉻擴展程序，支持與閃電應用程序的付款和其他交互(類似於MetaMask)
+* [kugelblitz](https://github.com/cdecker/kugelblitz) - 一個簡單的用戶界面，用於c-lightning守護進程閃電和bitcoind
+* [lncli-web](https://github.com/mably/lncli-web) - 用NodeJS / Angular編寫的lnd守護進程的輕量級Web客戶端
+* [Ride The Lightning](https://github.com/ShahanaFarooqui/RTL) - 用NodeJS / Angular 7編寫的LND守護進程的Web客戶端
+
+#### 移動應用程序
+
+* [rawtx](https://github.com/rawtxapp/rawtxapp) - 閃電網路錢包(Android，iOS); [主頁](https://rawtx.com)
+* [Swift Lightning](https://github.com/biscottigelato/SwiftLightning) - 在LND for iOS之上構建LN錢包
+* [比特幣閃電錢包](https://play.google.com/store/apps/details?id=com.lightning.walletapp) - 基於Eclair的基於Android的Lightning Network兼容錢包([testnet版本](https： //play.google.com/store/apps/details?id=com.lightning.wallet))
+* [Eclair Mobile](https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2)
+
+#### 瀏覽器 |  Explorers
 * [acinq.co](https://explorer.acinq.co/)
 * [1ML](https://1ml.com/) -  1ML資源管理器(mainnet + testnet)
 * [itcoinExchangeRate.org (Bitcoin 匯率)](https://bitcoinexchangerate.org/lightning) -  Lightning網路瀏覽器(testnet和mainnet)
@@ -61,9 +88,8 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 
 * [Bitcoin Lightning Network常見問題解答](/article/Bitcoin-Lightning-Network-FAQ.md)
 
-## 巴比特
-
-### 比特幣閃電網路：可擴充套件的 Off-Chain即時支付
+### 巴比特
+比特幣閃電網路：可擴充套件的 Off-Chain即時支付
 作者：Joseph Poon和Thaddeus Dryja
 這可能是2015年裡最具影響力的論文，Poon和Dryja展示了他們的發明：比特幣閃電網路，它可以允許任何數量的參與者通過雙方支付通道，即時地進行交易。
 
@@ -81,8 +107,8 @@ Poon和Dryja的願景可能很快就會實現，因為Blockstream正在努力推
 * [比特幣閃電網路交易費用接近為零，交易吞吐量可擴充套件到百萬次每秒](https://www.8btc.com/article/85844)2016-04-07 22:41
 * [探索比特幣閃電網路的中心化風險](https://www.8btc.com/article/89255)2016-05-10 14:39
 * [詳解最近大熱的閃電網路、雷電網路和CORDA](https://www.8btc.com/article/92887)2016-06-12 12:26
-* [Flare閃電網路新路由系統白皮書釋出，讓節點路由更加高效（白皮書全文下載）](https://www.8btc.com/article/96081)2016-07-08 12:20
-* [美國約翰•霍普金斯大學釋出白皮書：匿名的鏈下輕量級交易Bolt實現高度隱私的小額支付（全文下載）](https://www.8btc.com/article/98771)2016-08-02 13:46
+* [Flare閃電網路新路由系統白皮書釋出，讓節點路由更加高效(白皮書全文下載)](https://www.8btc.com/article/96081)2016-07-08 12:20
+* [美國約翰•霍普金斯大學釋出白皮書：匿名的鏈下輕量級交易Bolt實現高度隱私的小額支付(全文下載)](https://www.8btc.com/article/98771)2016-08-02 13:46
 * [專訪閃電網路創始人：閃電網路最新進展及面臨問題](https://www.8btc.com/article/105225)2016-09-30 16:22
 * [閃電網路所面臨的難題還遠未解決](https://www.8btc.com/article/109763)2016-11-17 15:56
 * [閃電網路如何為比特幣網路新增隱私層？](https://www.8btc.com/article/113116)2016-12-20 12:13
@@ -104,8 +130,8 @@ Poon和Dryja的願景可能很快就會實現，因為Blockstream正在努力推
 * [閃電網路入門：什麼是閃電網路？它是如何運作的？](https://www.8btc.com/article/242957)2018-08-08 08:38
 * [現在除了挖礦，你也可以通過閃電網路來賺取比特幣了](https://www.8btc.com/article/255731)2018-08-21 09:41
 * [一文讀懂隔離見證](https://www.8btc.com/article/265462)2018-09-03 15:33
-* [閃電 vs. 雷電：瞭望塔可拓展嗎? （上）](https://www.8btc.com/article/360567)2019-02-15 15:13
-* [閃電 vs. 雷電：瞭望塔中的隱私保護方案 （中)](https://www.8btc.com/article/368399)2019-03-02 10:00
+* [閃電 vs. 雷電：瞭望塔可拓展嗎? (上)](https://www.8btc.com/article/360567)2019-02-15 15:13
+* [閃電 vs. 雷電：瞭望塔中的隱私保護方案 (中)](https://www.8btc.com/article/368399)2019-03-02 10:00
 * [硬核乾貨 | 6000字讀懂閃電網路原理](https://www.8btc.com/article/362358)2019-02-18 22:10
 * [AMA | 康奈爾大學教授：閃電網路雖好，但至少存在這4個問題](https://www.8btc.com/article/363404)2019-02-20 17:57
 * [Blockstream釋出閃電網路軟體重大升級，增加最新‘外掛’功能](https://www.8btc.com/article/368520)2019-03-02 18:29
