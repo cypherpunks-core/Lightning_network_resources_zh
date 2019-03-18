@@ -76,36 +76,36 @@ Poon和Dryja的願景可能很快就會實現，因為Blockstream正在努力推
 * [揭穿關於閃電網路11個常見的謬見](https://www.8btc.com/article/70615)2015-10-20 14:36
 * [閃電網路與以太坊結合建立支付渠道的構想及其前景](https://www.8btc.com/article/71843)2015-10-31 12:00
 * [閃電網路懷疑論](https://www.8btc.com/article/76591)2015-12-29 07:30
-* [***閃電網路非常偉大，但它也面臨各種類型的問題***](https://www.8btc.com/article/81289)2016-02-29 10:31
+* [閃電網路非常偉大，但它也面臨各種類型的問題](https://www.8btc.com/article/81289)2016-02-29 10:31
 * [閃電網路之我見：比特幣網路的飛躍](https://www.8btc.com/article/85257)2016-03-31 18:13
 * [比特幣閃電網路交易費用接近為零，交易吞吐量可擴充套件到百萬次每秒](https://www.8btc.com/article/85844)2016-04-07 22:41
 * [探索比特幣閃電網路的中心化風險](https://www.8btc.com/article/89255)2016-05-10 14:39
-* [***詳解最近大熱的閃電網路、雷電網路和CORDA***](https://www.8btc.com/article/92887)2016-06-12 12:26
+* [詳解最近大熱的閃電網路、雷電網路和CORDA](https://www.8btc.com/article/92887)2016-06-12 12:26
 * [Flare閃電網路新路由系統白皮書釋出，讓節點路由更加高效（白皮書全文下載）](https://www.8btc.com/article/96081)2016-07-08 12:20
 * [美國約翰•霍普金斯大學釋出白皮書：匿名的鏈下輕量級交易Bolt實現高度隱私的小額支付（全文下載）](https://www.8btc.com/article/98771)2016-08-02 13:46
-* [***專訪閃電網路創始人：閃電網路最新進展及面臨問題***](https://www.8btc.com/article/105225)2016-09-30 16:22
+* [專訪閃電網路創始人：閃電網路最新進展及面臨問題](https://www.8btc.com/article/105225)2016-09-30 16:22
 * [閃電網路所面臨的難題還遠未解決](https://www.8btc.com/article/109763)2016-11-17 15:56
 * [閃電網路如何為比特幣網路新增隱私層？](https://www.8btc.com/article/113116)2016-12-20 12:13
 * [閃電網路協議開發者Russell：沒有隔離見證的閃電網路是不優雅的](https://www.8btc.com/article/113250)2016-12-21 11:14
 * [數學證明：閃電網路無法成為去中心化的比特幣擴容方案](https://www.8btc.com/article/132567)2017-07-04 08:45
 * [Gavin Andresen：閃電網路是高度中心化的](https://www.8btc.com/article/137798)2017-08-17 
-* [***如何在Linux系統建立自己的閃電網路節點和通道***](https://www.8btc.com/article/156211)2018-01-24 
+* [如何在Linux系統建立自己的閃電網路節點和通道](https://www.8btc.com/article/156211)2018-01-24 
 * [Andreas Antonopoulos：關於閃電網路的六大誤解](https://www.8btc.com/article/163750)2018-02-23 08:22
 * [閃電網路對比特幣隱私性的利弊](https://www.8btc.com/article/165281)2018-02-26 
-* [***閃電網路入門：如何傳送你的第一筆交易？***](https://www.8btc.com/article/165568)2018-03-02
+* [閃電網路入門：如何傳送你的第一筆交易？](https://www.8btc.com/article/165568)2018-03-02
 * [比特幣的未來？淺析閃電網路的優勢及創新之處](https://www.8btc.com/article/181491)2018-03-25 10:45
-* [***Blockstream LApp周，八款閃電網路應用盤點***](https://www.8btc.com/article/186239)2018-03-30 18:41
+* [Blockstream LApp周，八款閃電網路應用盤點](https://www.8btc.com/article/186239)2018-03-30 18:41
 * [比特幣的閃電網路受到攻擊——這對它來說是福還是禍？](https://www.8btc.com/article/188223)2018-04-05 08:44
-* [***詳解閃電網路的歷史——從頭腦風暴到測試版問世***](https://www.8btc.com/article/189240)2018-04-09 09:39
+* [詳解閃電網路的歷史——從頭腦風暴到測試版問世](https://www.8btc.com/article/189240)2018-04-09 09:39
 * [閃電網路+ NFC ？新方法將比特幣帶入零售業](https://www.8btc.com/article/195237)2018-04-19 07:43
-* [***比特幣的擴容之路：閃電網路未來是什麼樣的？***](https://www.8btc.com/article/202633)2018-05-07 08:44
-* [***閃電網路新技術出現：壓縮交易資料，保護使用者資金安全***](https://www.8btc.com/article/214475)2018-05-30 15:57
-* [***c-lightning beta版本上線，標誌著閃電網路成長和發展的重要一天***](https://www.8btc.com/article/226278)2018-06-26 13:34
+* [比特幣的擴容之路：閃電網路未來是什麼樣的？](https://www.8btc.com/article/202633)2018-05-07 08:44
+* [閃電網路新技術出現：壓縮交易資料，保護使用者資金安全](https://www.8btc.com/article/214475)2018-05-30 15:57
+* [c-lightning beta版本上線，標誌著閃電網路成長和發展的重要一天](https://www.8btc.com/article/226278)2018-06-26 13:34
 * [閃電網路入門：什麼是閃電網路？它是如何運作的？](https://www.8btc.com/article/242957)2018-08-08 08:38
 * [現在除了挖礦，你也可以通過閃電網路來賺取比特幣了](https://www.8btc.com/article/255731)2018-08-21 09:41
-* [***一文讀懂隔離見證***](https://www.8btc.com/article/265462)2018-09-03 15:33
-* [***閃電 vs. 雷電：瞭望塔可拓展嗎? （上）***](https://www.8btc.com/article/360567)2019-02-15 15:13
-* [***閃電 vs. 雷電：瞭望塔中的隱私保護方案 （中)***](https://www.8btc.com/article/368399)2019-03-02 10:00
+* [一文讀懂隔離見證](https://www.8btc.com/article/265462)2018-09-03 15:33
+* [閃電 vs. 雷電：瞭望塔可拓展嗎? （上）](https://www.8btc.com/article/360567)2019-02-15 15:13
+* [閃電 vs. 雷電：瞭望塔中的隱私保護方案 （中)](https://www.8btc.com/article/368399)2019-03-02 10:00
 * [硬核乾貨 | 6000字讀懂閃電網路原理](https://www.8btc.com/article/362358)2019-02-18 22:10
 * [AMA | 康奈爾大學教授：閃電網路雖好，但至少存在這4個問題](https://www.8btc.com/article/363404)2019-02-20 17:57
 * [Blockstream釋出閃電網路軟體重大升級，增加最新‘外掛’功能](https://www.8btc.com/article/368520)2019-03-02 18:29
