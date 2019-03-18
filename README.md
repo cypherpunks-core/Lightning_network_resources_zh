@@ -110,13 +110,13 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 
 #### 桌面界面 | Desktop Interfaces
 
-* [lightninglabs/lightning-app](https://github.com/lightninglabs/lightning-app) - 跨平台Lightning桌面應用程序
+* **[lightninglabs/lightning-app](https://github.com/lightninglabs/lightning-app) - 跨平台Lightning桌面應用程序**
+* **[LN-Zap/zap-desktop](https://github.com/LN-Zap/zap-desktop) -  Lightning Network桌面應用程序**
+* **[icota/presto](https://github.com/icota/presto) - 基於c-lightning的桌面錢包**
+* **[LightningPeach/lightning-peach-wallet](https://github.com/LightningPeach/lightning-peach-wallet) -  Bitfury Lightning錢包**
+* **[shesek/spark-wallet](https://github.com/shesek/spark-wallet) - 用於c-lightning的最小GUI; 可用作網路，移動和桌面應用程序**
 * [alexbosworth/lnd-gui](https://github.com/alexbosworth/lnd-gui) -  Lightning MacOS GUI錢包
 * [ACINQ/eclair](https://github.com/ACINQ/eclair) -  Lightning的跨平台桌面GUI
-* [LN-Zap/zap-desktop](https://github.com/LN-Zap/zap-desktop) -  Lightning Network桌面應用程序
-* [icota/presto](https://github.com/icota/presto) - 基於c-lightning的桌面錢包
-* [LightningPeach/lightning-peach-wallet](https://github.com/LightningPeach/lightning-peach-wallet) -  Bitfury Lightning錢包
-* [shesek/spark-wallet](https://github.com/shesek/spark-wallet) - 用於c-lightning的最小GUI; 可用作網路，移動和桌面應用程序
 * [benharold/voltage](https://github.com/benharold/voltage) - 電壓是c-lightning的macOS GUI
 
 #### Web界面 | Web Interfaces
