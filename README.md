@@ -40,7 +40,7 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 
 > 閃電網路是一個提議端到端連接的雙向支付通道路由網路。像這樣的網路可以允許任何參與者在無需信任任何中間人的情況下將支付從通道發送到通道。[閃電網路](https://lightning.network/lightning-network-paper.pdf)由Joseph Poon和Thadeus Dryja於2015年2月首先描述，建立在許多其他人提出和闡述的支付通道的概念上。
 
-> “閃電網路”是指用於路由支付通道網路的特定設計，現在已經由至少五個不同的開源團隊實現。獨立實現由一組互操作性標準進行協調：http://bit.ly/2rBHeoL[ Basics of Lightning Technology (BOLT) paper]。
+> “閃電網路”是指用於路由支付通道網路的特定設計，現在已經由至少五個不同的開源團隊實現。獨立實現由一組互操作性標準進行協調：http://bit.ly/2rBHeoL [Basics of Lightning Technology (BOLT) paper]。
 > 閃電網路的原型實現已由多個團隊發佈。目前，這些實現只能在testnet上運行，因為它們使用segwit，而沒有在主比特幣區塊鏈(mainnet)上激活。
 
 主要來源：
