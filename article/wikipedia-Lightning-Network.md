@@ -10,17 +10,7 @@
 
 為了按預期執行，Lightning Network需要在第1層區塊鏈中修復[交易延展性](https://en.wikipedia.org/wiki/Malleability_(加密))，例如[隔離證人](https：//en比特幣中的.wikipedia.org/wiki/Segregated_Witness)(* SegWit *)。[[1]](https://en.wikipedia.org/wiki/Lightning_Network#cite_note-spec-1)
 
-## 內容
 
-* [1History](https://en.wikipedia.org/wiki/Lightning_Network#History)
-  * [1.12018 DDoS攻擊](https://en.wikipedia.org/wiki/Lightning_Network#2018_DDoS_attacks)
-* [2Design](https://en.wikipedia.org/wiki/Lightning_Network#Design)
-  * [2.1承諾交易](https://en.wikipedia.org/wiki/Lightning_Network#Commitment_transactions)
-  * [2.2Limitations](https://en.wikipedia.org/wiki/Lightning_Network#Limitations)
-  * [2.3Routing](https://en.wikipedia.org/wiki/Lightning_Network#Routing)
-* [3實施](https://en.wikipedia.org/wiki/Lightning_Network#Implementations)
-* [4References](https://en.wikipedia.org/wiki/Lightning_Network#References)
-* [5外部鏈接](https://en.wikipedia.org/wiki/Lightning_Network#External_links)
 
 ## 歷史
 
@@ -45,8 +35,6 @@ Lightning Network概念於2018年3月獲得[移動支付](https://en.wikipedia.o
 在2018年3月20日，Lightning Network節點面臨[分佈式拒絕服務(DDoS)](https://en.wikipedia.org/wiki/Denial-of-service_attack)攻擊，該攻擊從大約200個節點離線發送利用盡可能多的節點連接以防止任何新連接。[[5]](https://en.wikipedia.org/wiki/Lightning_Network#cite_note-TrustNodes-5)2月初一個月，[比特幣核心](https://en.wikipedia.org/wiki/Bitcoin_Core)開發人員Peter Todd表示，Lightning協議很可能“在其目前的版本中被證明易受DoS [拒絕服務]攻擊。”根據密碼學家的說法，這會給項目的點對點和區塊鏈級別帶來危險。
 
 ## 設計
-
-！[文件：Lightning Network Explained.webm](https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Lightning_Network_Explained.webm/220px--Lightning_Network_Explained.webm.jpg)
 
 閃電網絡概述
 
@@ -91,10 +79,10 @@ Lightning Network由兩個節點之間的雙向支付渠道組成，這些渠道
 ## 實現
 BOLT(閃電技術基礎)[規格](https://github.com/lightningnetwork/lightning-rfc/blob/master/00-introduction.md)於2016年底起草。從那裡開始，已經實施了多項實施說規格：
 
-* [MIT]的非商業實施(https://en.wikipedia.org/wiki/MIT_Media_Lab)[數字貨幣計劃](https://dci.mit.edu/)
-* [Blockstream](https://en.wikipedia.org/wiki/Blockstream)的[C]中的c-lightning [實現](https://github.com/ElementsProject/lightning)(https：//zh .wikipedia.org/維基/C_language)
-* [Scala]中的ACINQ的eclair [實現](https://github.com/ACINQ/eclair)(https://en.wikipedia.org/wiki/Scala_programming_language)
-* 閃電實驗室的[實施](https://github.com/lightningnetwork/lnd)在[轉](https://en.wikipedia.org/wiki/Golang)
+* [MIT]的非商業實施(https://en.wikipedia.org/wiki/MIT_Media_Lab) [數字貨幣計劃](https://dci.mit.edu/)
+* [Blockstream](https://en.wikipedia.org/wiki/Blockstream)的[C]中的c-lightning [實現](https://github.com/ElementsProject/lightning)
+* [Scala]中的ACINQ的eclair [實現](https://github.com/ACINQ/eclair) 
+* 閃電實驗室的[實施](https://github.com/lightningnetwork/lnd)
 
 ## 參考文獻
 
@@ -102,7 +90,7 @@ BOLT(閃電技術基礎)[規格](https://github.com/lightningnetwork/lightning-r
 2. ** [^](https://en.wikipedia.org/wiki/Lightning_Network#cite_ref-2) ** [“Joseph Poon和Thaddeus Dryja的閃電網白皮書”](https://lightning.network/閃電般的網絡paper.pdf)(PDF)。 2019年1月6日。
 3. ** [^](https://en.wikipedia.org/wiki/Lightning_Network#cite_ref-3) ** [“比特幣價格：什麼是比特幣閃電網 - 它怎麼能以BTC價格導致CHAOS”]( https://www.express.co.uk/life-style/science-technology/985113/Bitcoin-price-news-lightning-network-BTC-value)。表達。 2018年7月6日。
 4. ** [^](https://en.wikipedia.org/wiki/Lightning_Network#cite_ref-4) ** [“統計”](https://web.archive.org/web/*/https：//1ml.com/statistics)。 * 1ml.com *。
-5. ** [^](https://en.wikipedia.org/wiki/Lightning_Network#cite_ref-TrustNodes_5-0)** [“閃電網絡DDoS向下發送20％的節點”](https：//www。 trustnodes.com/2018/03/21/lightning-network-ddos-sends-20-nodes)。 *新聞文章* 。 TrustNodes。 2018年3月21日。
+5. ** [^](https://en.wikipedia.org/wiki/Lightning_Network#cite_ref-TrustNodes_5-0)** [“閃電網絡DDoS向下發送20％的節點”](https：//www.trustnodes.com/2018/03/21/lightning-network-ddos-sends-20-nodes)。 *新聞文章* 。 TrustNodes。 2018年3月21日。
 6. ** [^](https://en.wikipedia.org/wiki/Lightning_Network#cite_ref-6) ** [“比特幣閃電網絡：可擴展的離線即時付款”](https：//閃電。網絡/閃電網絡paper.pdf)(PDF)。 * lightning.network *。 2016年1月14日。
 7. ** [^](https://en.wikipedia.org/wiki/Lightning_Network#cite_ref-7) ** [“bips：Bitcoin Improvement Proposals”](https://github.com/bitcoin/bips) 。 2017年9月25日 - 通過GitHub。
 
