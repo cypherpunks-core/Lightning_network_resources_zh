@@ -1,4 +1,5 @@
 # 閃電網路資源整理 
+https://lnroute.com/
 
 ## 比特幣資源
 比特幣是一種基於去中心化，採用點對點網路與共識主動性，開放原始碼，以區塊鏈作為底層技術的加密貨幣，比特幣由中本聰於2008年10月31日發表論文
@@ -19,6 +20,12 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 * 課程-[課程：以太坊原理與應用開發](https://docs.google.com/document/d/16V3HBwE78-vOex58P8s59TMxifhQi85_-whUd1ACd40/edit?fbclid=IwAR3mVk1wy40fglSFmNEi-CrELvmjv963Zdu0wQING4SSE4IA0dd9JzDpWdQ#heading=h.3n87a6jtx1p1)
 
 ## 閃電網路協議 | Lightning Network Protocol
+主要來源：
+* [BITCOIN LIGHTNING NETWORK](https://lnroute.com/)
+* [awesome-lightning-network](https://github.com/bcongdon/awesome-lightning-network)
+* [Lightning App Directory](https://dev.lightning.community/lapps/)
+
+
 閃電網路是一個提議端到端連接的雙向支付通道路由網路。像這樣的網路可以允許任何參與者在無需信任任何中間人的情況下將支付從通道發送到通道。[閃電網路](https://lightning.network/lightning-network-paper.pdf)  [由Joseph Poon和Thadeus Dryja於2015年2月首先描述]，建立在許多其他人提出和闡述的支付通道的概念上。
 
 “閃電網路”是指用於路由支付通道網路的特定設計，現在已經由至少五個不同的開源團隊實現。獨立實現由一組互操作性標準進行協調：http://bit.ly/2rBHeoL[ Basics of Lightning Technology (BOLT) paper]。
@@ -60,7 +67,6 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 * [ptarmigan](https://github.com/nayutaco/ptarmigan) - 符合C ++ BOLT標準的Lightning網路實現[Incomplete]
 
 ### 閃電網路 app
-* [Lightning App Directory](https://dev.lightning.community/lapps/)
 * [These are the Top 10 Lightning Apps out right now](https://kintu.co/lightning-apps/)
 
 #### 桌面界面 | Desktop Interfaces
