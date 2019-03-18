@@ -9,11 +9,11 @@
 * [區塊鏈技術漫談](區塊鏈技術漫談.md)
 
 ### 比特幣的基礎知識 | Basic knowledge of Bitcoin
-* 影-[比特幣和區塊鏈到底是啥？礦機挖礦咋回事？李永樂老師講比特幣(1)](https://www.youtube.com/watch?v=g_fSistU3MQ)
-* 影-[比特幣交易如何防偽？私鑰公鑰地址啥意思？李永樂老師講比特幣(2)](
+* :clapper:[比特幣和區塊鏈到底是啥？礦機挖礦咋回事？李永樂老師講比特幣(1)](https://www.youtube.com/watch?v=g_fSistU3MQ)
+* :clapper:[比特幣交易如何防偽？私鑰公鑰地址啥意思？李永樂老師講比特幣(2)](
 https://www.youtube.com/watch?v=pbAVauYsqP0)
-* 影-[你有疑惑過比特幣(與其他加密貨幣)的運作原理嗎？(純英文)](https://youtu.be/bBC-nXj3Ng4)
-* 影-[你有疑惑過比特幣(與其他加密貨幣)的運作原理嗎？(簡中字幕)](https://www.bilibili.com/video/av12465079)
+* :clapper:[你有疑惑過比特幣(與其他加密貨幣)的運作原理嗎？(純英文)](https://youtu.be/bBC-nXj3Ng4)
+* :clapper:[你有疑惑過比特幣(與其他加密貨幣)的運作原理嗎？(簡中字幕)](https://www.bilibili.com/video/av12465079)
 * Binance 學院：
 	* [區塊鏈](https://www.binance.vision/zt/blockchain)
 	* [經濟](https://www.binance.vision/zt/economics)
@@ -29,7 +29,7 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 		* [什麼是多重簽名錢包](/article/Binance-安全/什麼是多重簽名錢包.md)
 		* [普遍安全原則](/article/Binance-安全/普遍安全原則.md)
 * :page_facing_up:[比特幣：一種點對點的電子現金系統 繁中](https://github.com/ChenPoWei/bitcoin_whitepaper_zh)
-* 書-[Mastering Bitcoin 第二版 繁中](https://forum.cypherpunks.tech/t/topic/131)
+* :closed_book:[Mastering Bitcoin 第二版 繁中](https://forum.cypherpunks.tech/t/topic/131)
 * 課程-[課程：區塊鏈技術與應用](https://docs.google.com/document/d/1R2lQ3NN6IFYT3fQ2G5D8TRcTw2bd4JTNMW8QbKimu8Q/edit?fbclid=IwAR3lpqDPNpelERgr_KHaHCBRI0R0QXQUn2tifwCEzfpXJpX8XWaHzPrqn5s#heading=h.3n87a6jtx1p1)
 * 課程-[課程：以太坊原理與應用開發](https://docs.google.com/document/d/16V3HBwE78-vOex58P8s59TMxifhQi85_-whUd1ACd40/edit?fbclid=IwAR3mVk1wy40fglSFmNEi-CrELvmjv963Zdu0wQING4SSE4IA0dd9JzDpWdQ#heading=h.3n87a6jtx1p1)
 
