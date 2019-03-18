@@ -43,7 +43,11 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 > “閃電網路”是指用於路由支付通道網路的特定設計，現在已經由至少五個不同的開源團隊實現。獨立實現由一組互操作性標準進行協調：http://bit.ly/2rBHeoL [Basics of Lightning Technology (BOLT) paper]。
 > 閃電網路的原型實現已由多個團隊發佈。目前，這些實現只能在testnet上運行，因為它們使用segwit，而沒有在主比特幣區塊鏈(mainnet)上激活。
 
+
+
 主要來源：
+***[Radar ION](https://ion.radar.tech/)-加入閃電網絡的指南***
+***[lightning.engineering](https://lightning.engineering/index.html)***
 * [BITCOIN LIGHTNING NETWORK](https://lnroute.com/)-資源和信息指南
 * [awesome-lightning-network](https://github.com/bcongdon/awesome-lightning-network)-為開發人員和加密愛好者提供的精彩Lightning Network項目列表
 * [lightning.network](https://lightning.network/)
@@ -110,28 +114,20 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 * [These are the Top 10 Lightning Apps out right now](https://kintu.co/lightning-apps/)
 * [Lightning App Directory](https://dev.lightning.community/lapps/)
 
-#### 桌面界面 | Desktop Interfaces
 
-* **[lightninglabs/lightning-app](https://github.com/lightninglabs/lightning-app) - 跨平台Lightning桌面應用程序**
-* **[LN-Zap/zap-desktop](https://github.com/LN-Zap/zap-desktop) -  Lightning Network桌面應用程序**
-* **[icota/presto](https://github.com/icota/presto) - 基於c-lightning的桌面錢包**
+#### 錢包 | Wallet
+##### 桌面界面 | Desktop Interfaces
+
+* **[lightninglabs/lightning-app](https://github.com/lightninglabs/lightning-app) - 易於使用的跨平台閃電錢包**
+* **[LN-Zap/zap-desktop](https://github.com/LN-Zap/zap-desktop) -  Zap是一款免費的Lightning Network錢包，專注於用戶體驗和易用性，其總體目標是幫助加密貨幣社區擴展比特幣和其他加密貨幣。**
+* **[icota/presto](https://github.com/icota/presto) - Presto - 基於c-lightning的桌面和移動閃電網絡錢包 **
 * **[LightningPeach/lightning-peach-wallet](https://github.com/LightningPeach/lightning-peach-wallet) -  Bitfury Lightning錢包**
 * **[shesek/spark-wallet](https://github.com/shesek/spark-wallet) - 用於c-lightning的最小GUI; 可用作網路，移動和桌面應用程序**
 * [alexbosworth/lnd-gui](https://github.com/alexbosworth/lnd-gui) -  Lightning MacOS GUI錢包
 * [ACINQ/eclair](https://github.com/ACINQ/eclair) -  Lightning的跨平台桌面GUI
-* [benharold/voltage](https://github.com/benharold/voltage) - 電壓是c-lightning的macOS GUI
+* [benharold/voltage](https://github.com/benharold/voltage) - 是c-lightning的macOS GUI
 
-#### Web界面 | Web Interfaces
-
-* [Lightning-Family/Discovery-Wallet](https://github.com/Lightning-Family/Discovery-Wallet) - 網路保管錢包; [現場演示](https://wallet.lightning.family)
-* [marzig76/fulmo](https://github.com/marzig76/fulmo) - 簡約的c-lightning UI
-* [Joule](http://lightningjoule.com) - 一個鍍鉻擴展程序，支持與閃電應用程序的付款和其他交互(類似於MetaMask)
-* [cdecker/kugelblitz](https://github.com/cdecker/kugelblitz) - 一個簡單的用戶界面，用於c-lightning守護進程閃電和bitcoind
-* [mably/lncli-web](https://github.com/mably/lncli-web) - 用NodeJS / Angular編寫的lnd守護進程的輕量級Web客戶端
-* [ShahanaFarooqui/RTL](https://github.com/ShahanaFarooqui/RTL) - 用NodeJS / Angular 7編寫的LND守護進程的Web客戶端
-* [bitlum.io](https://bitlum.io/)-Bitlum是一個Lightning Network主網絡錢包。快速，簡單，無需安裝節點。設置只需5分鐘訪問。
-
-#### 移動應用程序 | Mobile applications
+##### 移動應用程序 | Mobile applications
 
 * **Android** 
 	* [Eclair Mobile](https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2)
@@ -146,9 +142,23 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 	* [BlueWallet](https://github.com/BlueWallet/BlueWallet)-使用React Native和BlockCypher API構建。
 	> [在Mac OSX上運行LNDHub](https://medium.com/@jpthor/running-lndhub-on-mac-osx-5be6671b2e0c)-如何在Mac OSX上部署和運行LNDHub實例並連接到BlueWallet。
 
+##### Web界面 | Web Interfaces
+
+* [Lightning-Family/Discovery-Wallet](https://github.com/Lightning-Family/Discovery-Wallet) - 網路保管錢包; [現場演示](https://wallet.lightning.family)
+* [marzig76/fulmo](https://github.com/marzig76/fulmo) - 簡約的c-lightning UI
+* [Joule](http://lightningjoule.com) - 一個擴展程序，支持與閃電應用程序的付款和其他交互(類似於MetaMask)
+* [cdecker/kugelblitz](https://github.com/cdecker/kugelblitz) - 一個簡單的用戶界面，用於c-lightning守護進程閃電和bitcoind
+* [mably/lncli-web](https://github.com/mably/lncli-web) - 用NodeJS / Angular編寫的lnd守護進程的輕量級Web客戶端
+* [ShahanaFarooqui/RTL](https://github.com/ShahanaFarooqui/RTL) - 用NodeJS / Angular 7編寫的LND的Web客戶端
+* [bitlum.io](https://bitlum.io/)-Bitlum是一個Lightning Network主網絡錢包。快速，簡單，無需安裝節點。設置只需5分鐘訪問。
+* [tippin.me](https://tippin.me/)-Lightning Wallet和Tipping服務tippin.me發布了Chrome和Firefox的擴展程序，將其服務與Twitter集成。
+
+#### 工具
+* [Lightning Decoder](https://lightningdecoder.com/)-另一種解碼Lightning Network Invoice（BOLT11）的在線工具。
 
 #### 遊戲
 * [BC.Game](https://bc.game/atm)-BC.Game是一個BlockChain遊戲平台，具有可靠的公平，快速支付，免費水龍頭和Lightning Network支持。一些可用的遊戲是Crash，Dice和Blackjack。
+
 
 #### 瀏覽器 |  Explorers
 * **閃電網路節點瀏覽器**
