@@ -34,14 +34,12 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 ## 閃電網路協議 | Lightning Network Protocol
 > 閃電網絡（英語：Lightning Network）是工作在區塊鏈上（主要面向比特幣）的第二層支付協議。其設計目的是實現交易雙方的即時交易，而區塊鏈的交易頻率則受限於其容量。
 
-
 > 主要思路 -閃電網絡的主要思路為將大量交易放到比特幣區塊鏈之外進行。閃電網絡通過智能合約來完善鏈下的交易渠道。在整個交易中，智能合約起到了中介的重要角色，而區塊鏈則確保最終的交易結果被確認。
 
 主要來源：
 * [BITCOIN LIGHTNING NETWORK](https://lnroute.com/)
 * [awesome-lightning-network](https://github.com/bcongdon/awesome-lightning-network)
 * [Lightning App Directory](https://dev.lightning.community/lapps/)
-
 
 閃電網路是一個提議端到端連接的雙向支付通道路由網路。像這樣的網路可以允許任何參與者在無需信任任何中間人的情況下將支付從通道發送到通道。[閃電網路](https://lightning.network/lightning-network-paper.pdf)  [由Joseph Poon和Thadeus Dryja於2015年2月首先描述]，建立在許多其他人提出和闡述的支付通道的概念上。
 
@@ -50,7 +48,7 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 閃電網路的原型實現已由多個團隊發佈。目前，這些實現只能在testnet上運行，因為它們使用segwit，而沒有在主比特幣區塊鏈(mainnet)上激活。
 
 ### 閃電網路概述
-
+* [Binance 什麼事閃電網路？](/article/Binance-區塊鏈/什麼是閃電網絡.md)
 * [動區-什麼是Segwit隔離見證？](https://www.blocktempo.com/understand-segwit-in3mins) 2018-03-05
 * [動區-五分鐘就看懂：圖說閃電網路](https://www.blocktempo.com/lightning-network/) 2018-04-05
 * [動區-為何比特幣閃電網路的可視化器（Visualizer）跟看到的不太一樣?](https://www.blocktempo.com/bitcoin-lightning-visualizer-dont-seem-to-be-what-they-seem) 2018-04-15
@@ -128,15 +126,12 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 * [Bitcoin Lightning Network常見問題解答](/article/Bitcoin-Lightning-Network-FAQ.md)
 
 ### 動區動趨
-* [【三分鐘內就看懂】什麼是Segwit隔離見證？](https://www.blocktempo.com/understand-segwit-in3mins) 2018-03-05
 * [比特幣核心開發團隊釋出版本升級：全面支持SegWit](https://www.blocktempo.com/bitcoin-core-support-segwit/) 2018-02-27
 * [【隔離見證｜擴容】比特幣錢包Xapo採用擴容方案「SegWit」](https://www.blocktempo.com/bitcoin-wallet-xapo-implements-scaling-solution-segwit) 2018-05-29
 * [【區塊鏈遊戲 Poketoshi｜閃電網絡】讓你在比特幣閃電網絡上玩「神奇寶貝」？](https://www.blocktempo.com/poketoshi-game-brings-nintendo-s-pokemon-onto-bitcoin-lightning-network/) 2018-06-20
 * [閃電網絡高速採用中，2019 年我們能期待的更多](https://www.blocktempo.com/lighning-network-in-2019/) 2019-01-29
-* [【動區專題】五分鐘就看懂：圖說閃電網路](https://www.blocktempo.com/lightning-network/) 2018-04-05
 * [【閃電網路被攻擊！】神秘組織「自掏腰包」發起攻擊來提醒開發團隊漏洞存在](https://www.blocktempo.com/lightning-network-hacked-for-its-own-good/) 2018-04-06
 * [【獨立觀點】為何比特幣閃電網路的可視化器（Visualizer）跟看到的不太一樣?](https://www.blocktempo.com/bitcoin-lightning-visualizer-dont-seem-to-be-what-they-seem) 2018-04-15
-* [【動區專題】閃電網路是比特幣的未來？——解決方案全攻略](https://www.blocktempo.com/the-future-of-bitcoin-what-lightning-could-look-like) 2018-05-07
 * [【Zcash的隱私版閃電網路｜BOLT】正式上線！——匿名、輕量、小額支付
 ](https://www.blocktempo.com/the-code-for-an-anonymous-lightning-network-is-now-live/) 2018-08-15
 * [閃電網路獲得大量採用中，有望透過Google Chrome、Firefox、Excel等進行比特幣支付](https://www.blocktempo.com/ln-adopting-chrome-firefox/)2018-10-31
