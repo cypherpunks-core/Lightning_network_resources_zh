@@ -97,12 +97,13 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 
 閃電網路協議的實現
 
-* [LND](https://github.com/lightningnetwork/lnd) -  Lightning Network Daemon(Golang)
-* [eclair](https://github.com/ACINQ/eclair) - 閃電網路的Scala實現(Scala)
-* [lit](https://github.com/mit-dci/lit) -  Lightning Network節點軟件(Golang)
-* [c-lightning](https://github.com/ElementsProject/lightning) -  C中的Lightning Network實現
-* [lightning-onion](https://github.com/lightningnetwork/lightning-onion) - 閃電網路的洋蔥路線微支付(Golang)
-* [ptarmigan](https://github.com/nayutaco/ptarmigan) - 符合C ++ BOLT標準的Lightning網路實現[Incomplete]
+* [lightningnetwork/lnd](https://github.com/lightningnetwork/lnd) -  Lightning Network Daemon（lnd） - 是Lightning Network節點的完整實現。(Golang)
+* [ACINQ/eclair](https://github.com/ACINQ/eclair) - Lightning Network的Scala語言實現。它可以在有或沒有GUI的情況下運行，也可以使用JSON-RPC API。(Scala)
+* [mit-dci/lit](https://github.com/mit-dci/lit) -  Lightning Network節點軟件(Golang)
+* [ElementsProject/lightning](https://github.com/ElementsProject/lightning) -  c-lightning：C語言中符合規範的Lightning Network實現(C)
+* [lightningnetwork/lightning-onion](https://github.com/lightningnetwork/lightning-onion) - 該存儲庫包含Lightning Network的洋蔥路由協議的實現。(Golang)
+* [nayutaco/ptarmigan](https://github.com/nayutaco/ptarmigan) - 符合C ++ BOLT標準的Lightning網路實現[Incomplete]
+* [LightningPeach/lpd](https://github.com/LightningPeach/lpd) - 是Rust語言中Lightning Network節點的部分實現。
 
 ### 閃電網路 app
 * [These are the Top 10 Lightning Apps out right now](https://kintu.co/lightning-apps/)
