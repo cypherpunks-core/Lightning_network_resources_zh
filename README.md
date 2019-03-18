@@ -136,11 +136,12 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 * [Eclair Mobile](https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2)
 
 #### 瀏覽器 |  Explorers
-* **LN Node Explorer**
+* **閃電網路節點瀏覽器**
 	* [Casa](https://explore.casa/)
 	* [acinq.co](https://explorer.acinq.co/)
-	* [1ML](https://1ml.com/) -  閃電網絡搜索和分析引擎
-	* [Lightblock](https://lightblock.me) - 閃電網絡搜索和分析引擎
+	* [1ML](https://1ml.com/)
+	* [Lightblock](https://lightblock.me)
+
 * **閃電網路拓普**
 	* [Lightning network explorer](https://explorer.acinq.co/)  - 可視化閃電網路拓普
 	* [chemicstry/recksplorer](https://gist.github.com/bretton/798ec38165ffabc719d91e0f4f67552d) - 網絡視圖​​往往是來自單個節點或少量節點選擇的網絡視圖。它們不是網絡的完整視圖。這是不可能實現的。即使組合了許多節點視圖，它仍然是不完整的。
