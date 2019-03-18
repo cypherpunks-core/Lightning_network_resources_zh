@@ -63,7 +63,7 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 * [Lightning App Directory](https://dev.lightning.community/lapps/)
 * [These are the Top 10 Lightning Apps out right now](https://kintu.co/lightning-apps/)
 
-#### 桌面界面
+#### 桌面界面 | Desktop Interfaces
 
 * [lightning-app](https://github.com/lightninglabs/lightning-app) - 跨平台Lightning桌面應用程序
 * [lnd-gui](https://github.com/alexbosworth/lnd-gui) -  Lightning MacOS GUI錢包
@@ -74,7 +74,7 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 * [spark-wallet](https://github.com/shesek/spark-wallet) - 用於c-lightning的最小GUI; 可用作網路，移動和桌面應用程序
 * [電壓](https://github.com/benharold/voltage) - 電壓是c-lightning的macOS GUI
 
-#### Web界面
+#### Web界面 | Web Interfaces
 
 * [發現錢包](https://github.com/Lightning-Family/Discovery-Wallet) - 網路保管錢包; [現場演示](https://wallet.lightning.family)
 * [fulmo](https://github.com/marzig76/fulmo) - 簡約的c-lightning UI
@@ -83,7 +83,7 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 * [lncli-web](https://github.com/mably/lncli-web) - 用NodeJS / Angular編寫的lnd守護進程的輕量級Web客戶端
 * [Ride The Lightning](https://github.com/ShahanaFarooqui/RTL) - 用NodeJS / Angular 7編寫的LND守護進程的Web客戶端
 
-#### 移動應用程序
+#### 移動應用程序 | Mobile applications
 
 * [rawtx](https://github.com/rawtxapp/rawtxapp) - 閃電網路錢包(Android，iOS); [主頁](https://rawtx.com)
 * [Swift Lightning](https://github.com/biscottigelato/SwiftLightning) - 在LND for iOS之上構建LN錢包
