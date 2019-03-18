@@ -31,7 +31,6 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 * [閃電網白皮書-英文](https://lightning.network/lightning-network-paper.pdf)
 * [閃電網路規範](https://github.com/lightningnetwork/lightning-rfc)
 * [LND API參考](http://api.lightning.community/)
-
 * [可部署的閃電白皮書](https://github.com/ElementsProject/lightning/blob/master/doc/deployable-lightning.pdf)
 * [比特幣微支付信道網路的可擴展資金](https://www.tik.ee.ethz.ch/file/a20a865ce40d40c8f942cf206a7cba96/Scalable_Funding_Of_Blockchain_Micropayment_Networks%20(1).pdf)
 
