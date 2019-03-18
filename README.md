@@ -136,14 +136,21 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 * [Eclair Mobile](https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2)
 
 #### 瀏覽器 |  Explorers
-* [acinq.co](https://explorer.acinq.co/)
-* [1ML](https://1ml.com/) -  閃電網絡搜索和分析引擎
-* [Lightblock](https://lightblock.me) - 閃電網絡搜索和分析引擎
-* [Lightning network explorer](https://explorer.acinq.co/)  - 可視化閃電網路拓普
-* [chemicstry/recksplorer](https://gist.github.com/bretton/798ec38165ffabc719d91e0f4f67552d) - 網絡視圖​​往往是來自單個節點或少量節點選擇的網絡視圖。它們不是網絡的完整視圖。這是不可能實現的。即使組合了許多節點視圖，它仍然是不完整的。
-* [xsb/lngraph](https://github.com/xsb/lngraph) - lngraph將Lightning Network數據導入Neo4j，用於本地探索您的節點及其網絡視圖。這不是一個公共資源管理器。
+* **LN Node Explorer**
+	* [Casa](https://explore.casa/)
+	* [acinq.co](https://explorer.acinq.co/)
+	* [1ML](https://1ml.com/) -  閃電網絡搜索和分析引擎
+	* [Lightblock](https://lightblock.me) - 閃電網絡搜索和分析引擎
+* **閃電網路拓普**
+	* [Lightning network explorer](https://explorer.acinq.co/)  - 可視化閃電網路拓普
+	* [chemicstry/recksplorer](https://gist.github.com/bretton/798ec38165ffabc719d91e0f4f67552d) - 網絡視圖​​往往是來自單個節點或少量節點選擇的網絡視圖。它們不是網絡的完整視圖。這是不可能實現的。即使組合了許多節點視圖，它仍然是不完整的。
+	* [xsb/lngraph](https://github.com/xsb/lngraph) - lngraph將Lightning Network數據導入Neo4j，用於本地探索您的節點及其網絡視圖。這不是一個公共資源管理器。
 * [Robtex比特幣Lightning Explorer](https://www.robtex.com/lightning/node/) -  統計閃電節點數、殭屍節點數、活動節點數、活動節點數24h、活動節點數1w、活動節點數1m、總開放通道數、總封閉頻道、總頻道容量。
 * [itcoinExchangeRate.org (Bitcoin 匯率)](https://bitcoinexchangerate.org/lightning) -  Lightning網路瀏覽器(testnet和mainnet)
+
+## 特殊項目 | Special item
+* [Stadicus/guides](https://github.com/Stadicus/guides/blob/master/raspibolt/README.md)-在Raspberry Pi 上搭建 Lightning Network
+
 
 ## 文章 | article
 
