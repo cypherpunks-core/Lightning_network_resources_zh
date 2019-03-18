@@ -1,5 +1,5 @@
 # 閃電網路資源整理 
-
+* [Wikipedia Lightning Network](/article/wikipedia-Lightning-Network.md)
 ## 比特幣資源
 比特幣是一種基於去中心化，採用點對點網路與共識主動性，開放原始碼，以區塊鏈作為底層技術的加密貨幣，比特幣由中本聰於2008年10月31日發表論文
 
@@ -48,7 +48,7 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 閃電網路的原型實現已由多個團隊發佈。目前，這些實現只能在testnet上運行，因為它們使用segwit，而沒有在主比特幣區塊鏈(mainnet)上激活。
 
 ### 閃電網路概述
-* [Binance 什麼事閃電網路？](/article/Binance-區塊鏈/什麼是閃電網絡.md)
+* [Binance-什麼事閃電網路？](/article/Binance-區塊鏈/什麼是閃電網絡.md)
 * [動區-什麼是Segwit隔離見證？](https://www.blocktempo.com/understand-segwit-in3mins) 2018-03-05
 * [動區-五分鐘就看懂：圖說閃電網路](https://www.blocktempo.com/lightning-network/) 2018-04-05
 * [動區-為何比特幣閃電網路的可視化器（Visualizer）跟看到的不太一樣?](https://www.blocktempo.com/bitcoin-lightning-visualizer-dont-seem-to-be-what-they-seem) 2018-04-15
