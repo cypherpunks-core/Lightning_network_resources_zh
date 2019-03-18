@@ -48,7 +48,7 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 * [awesome-lightning-network](https://github.com/bcongdon/awesome-lightning-network)-為開發人員和加密愛好者提供的精彩Lightning Network項目列表
 * [lightning.network](https://lightning.network/)
 * [Blockstream LN](https://www.blockstream.com/lightning/)
-* [ACINQ](https://acinq.co/)
+* [eclair — ACINQ](https://acinq.co/)
 
 ### 閃電網路概述 | Lightning Network Overview
 * [Binance-什麼事閃電網路？](/article/Binance-區塊鏈/什麼是閃電網絡.md)
@@ -127,17 +127,26 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 * [cdecker/kugelblitz](https://github.com/cdecker/kugelblitz) - 一個簡單的用戶界面，用於c-lightning守護進程閃電和bitcoind
 * [mably/lncli-web](https://github.com/mably/lncli-web) - 用NodeJS / Angular編寫的lnd守護進程的輕量級Web客戶端
 * [ShahanaFarooqui/RTL](https://github.com/ShahanaFarooqui/RTL) - 用NodeJS / Angular 7編寫的LND守護進程的Web客戶端
+* [bitlum.io](https://bitlum.io/)-Bitlum是一個Lightning Network主網絡錢包。快速，簡單，無需安裝節點。設置只需5分鐘訪問。
 
 #### 移動應用程序 | Mobile applications
 
-* [rawtxapp/rawtxapp](https://github.com/rawtxapp/rawtxapp) - 閃電網路錢包(Android，iOS); [主頁](https://rawtx.com)
-* [biscottigelato/SwiftLightning](https://github.com/biscottigelato/SwiftLightning) - 在LND for iOS之上構建LN錢包
-* [比特幣閃電錢包](https://play.google.com/store/apps/details?id=com.lightning.walletapp) - 基於Eclair的基於Android的Lightning Network兼容錢包([testnet版本](https：//play.google.com/store/apps/details?id=com.lightning.wallet))
-* [Eclair Mobile](https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2)
+* **Android** 
+	* [Eclair Mobile](https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2)
+	* [Hoo Wallet](https://hoo.com/)-適用於Android的移動閃電錢包。此錢包是非託管的，需要運行您自己的完整節點。
+	* [Eclair](https://github.com/ACINQ/eclair-mobile)Eclair移動應用程序是一款非託管移動Lightning Network錢包，現在可以啟用閃電接收功能。以前只能發送資金。
+* **iOS**
+	* [rawtxapp/rawtxapp](https://github.com/rawtxapp/rawtxapp) - 閃電網路錢包(Android，iOS); [主頁](https://rawtx.com)
+	* [biscottigelato/SwiftLightning](https://github.com/biscottigelato/SwiftLightning) - 在LND for iOS之上構建LN錢包
+	* [比特幣閃電錢包](https://play.google.com/store/apps/details?id=com.lightning.walletapp) - 基於Eclair的基於Android的Lightning Network兼容錢包([testnet版本](https：//play.google.com/store/apps/details?id=com.lightning.wallet))
+
+
+#### 遊戲
+* [BC.Game](https://bc.game/atm)-BC.Game是一個BlockChain遊戲平台，具有可靠的公平，快速支付，免費水龍頭和Lightning Network支持。一些可用的遊戲是Crash，Dice和Blackjack。
 
 #### 瀏覽器 |  Explorers
 * **閃電網路節點瀏覽器**
-	* [Casa](https://explore.casa/)
+	* [Casa](https://explore.casa/)-一個快速瀏覽器，允許您查詢節點和通道。節點詳細信息包括星圖和頻道列表。
 	* [acinq.co](https://explorer.acinq.co/)
 	* [1ML](https://1ml.com/)
 	* [Lightblock](https://lightblock.me)
@@ -151,6 +160,8 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 
 ## 特殊項目 | Special item
 * [Stadicus/guides](https://github.com/Stadicus/guides/blob/master/raspibolt/README.md)-在Raspberry Pi 上搭建 Lightning Network
+* [rstmsn/lnd-for-wp](https://github.com/rstmsn/lnd-for-wp)-LND For WP是一個WordPress插件，允許您直接從WordPress管理面板管理和使用LND節點。它提供了一個功能齊全的錢包界面，使您可以輕鬆地在Lightning Network上發送和接收資金。
+* [opencart 中支持 Lightning Network](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=36414)
 
 
 ## 文章 | article
