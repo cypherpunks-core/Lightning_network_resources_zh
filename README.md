@@ -63,22 +63,22 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 
 ### 論文
 
-* [“比特幣閃電網絡”：論文（PDF）DRAFT Version 0.5.9.1]（https://lightning.network/lightning-network-paper.pdf）
+* [“比特幣閃電網絡”：論文(PDF)DRAFT Version 0.5.9.1](https://lightning.network/lightning-network-paper.pdf)
 
-**摘要**。比特幣協議可以涵蓋當今所有電子支付系統中的全球金融交易量，而沒有單個監管第三方持有資金或要求參與者在家庭寬帶連接上具有任何不僅僅是計算機。提出了一種分散的系統，通過微支付渠道（例如支付渠道或交易渠道）的網絡發送交易，其價值轉移發生在區塊鏈之外。如果比特幣交易可以使用新的sighash類型進行簽名，這種類型可以解決延展性問題，那麼這些轉移可能發生在轉移路線上的不信任方之間，這些合同可以通過比特幣區塊鏈在不合作或敵對參與者的情況下通過廣播強制執行，通過一系列遞減時間。
+**摘要**。比特幣協議可以涵蓋當今所有電子支付系統中的全球金融交易量，而沒有單個監管第三方持有資金或要求參與者在家庭寬帶連接上具有任何不僅僅是計算機。提出了一種分散的系統，通過微支付渠道(例如支付渠道或交易渠道)的網絡發送交易，其價值轉移發生在區塊鏈之外。如果比特幣交易可以使用新的sighash類型進行簽名，這種類型可以解決延展性問題，那麼這些轉移可能發生在轉移路線上的不信任方之間，這些合同可以通過比特幣區塊鏈在不合作或敵對參與者的情況下通過廣播強制執行，通過一系列遞減時間。
 
-（該論文仍在進行中）
+(該論文仍在進行中)
 
 ### 摘要
 
-* [閃電網絡摘要]（https://lightning.network/lightning-network-summary.pdf）
-* [閃電網絡技術設計概述]（https://lightning.network/lightning-network-technical-summary.pdf）
+* [閃電網絡摘要](https://lightning.network/lightning-network-summary.pdf)
+* [閃電網絡技術設計概述](https://lightning.network/lightning-network-technical-summary.pdf)
 
 ### 演示幻燈片
 
-* [SF比特幣開發]（https://lightning.network/lightning-network.pdf）
-* [SF比特幣社交]（https://lightning.network/lightning-network-presentation-sfbitcoinsocial-2015-05-26.pdf）
-* [時間和比特幣]（https://lightning.network/lightning-network-presentation-time-2015-07-06.pdf）
+* [SF比特幣開發](https://lightning.network/lightning-network.pdf)
+* [SF比特幣社交](https://lightning.network/lightning-network-presentation-sfbitcoinsocial-2015-05-26.pdf)
+* [時間和比特幣](https://lightning.network/lightning-network-presentation-time-2015-07-06.pdf)
 
 ### 規格/白皮書 | Specifications / White Papers
 
