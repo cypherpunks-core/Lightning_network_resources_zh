@@ -40,6 +40,7 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 * [BITCOIN LIGHTNING NETWORK](https://lnroute.com/)
 * [awesome-lightning-network](https://github.com/bcongdon/awesome-lightning-network)
 * [Lightning App Directory](https://dev.lightning.community/lapps/)
+* [lightning.network](https://lightning.network/)
 
 閃電網路是一個提議端到端連接的雙向支付通道路由網路。像這樣的網路可以允許任何參與者在無需信任任何中間人的情況下將支付從通道發送到通道。[閃電網路](https://lightning.network/lightning-network-paper.pdf)  [由Joseph Poon和Thadeus Dryja於2015年2月首先描述]，建立在許多其他人提出和闡述的支付通道的概念上。
 
@@ -79,6 +80,8 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 * [SF比特幣開發](https://lightning.network/lightning-network.pdf)
 * [SF比特幣社交](https://lightning.network/lightning-network-presentation-sfbitcoinsocial-2015-05-26.pdf)
 * [時間和比特幣](https://lightning.network/lightning-network-presentation-time-2015-07-06.pdf)
+* [LN as Directed Graph Single-Funded Channel Topology
+](https://docs.google.com/presentation/d/1G4xchDGcO37DJ2lPC_XYyZIUkJc2khnLrCaZXgvDN0U/edit?pref=2&pli=1#slide=id.g85f425098_0_2)
 
 ### 規格/白皮書 | Specifications / White Papers
 
