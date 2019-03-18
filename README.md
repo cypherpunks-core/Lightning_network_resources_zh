@@ -22,6 +22,10 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 * 課程-[課程：以太坊原理與應用開發](https://docs.google.com/document/d/16V3HBwE78-vOex58P8s59TMxifhQi85_-whUd1ACd40/edit?fbclid=IwAR3mVk1wy40fglSFmNEi-CrELvmjv963Zdu0wQING4SSE4IA0dd9JzDpWdQ#heading=h.3n87a6jtx1p1)
 
 ## 閃電網路協議 | Lightning Network Protocol
+> 閃電網絡（英語：Lightning Network）是工作在區塊鏈上（主要面向比特幣）的第二層支付協議。其設計目的是實現交易雙方的即時交易，而區塊鏈的交易頻率則受限於其容量。
+>主要思路
+> 閃電網絡的主要思路為將大量交易放到比特幣區塊鏈之外進行。閃電網絡通過智能合約來完善鏈下的交易渠道。在整個交易中，智能合約起到了中介的重要角色，而區塊鏈則確保最終的交易結果被確認。
+
 主要來源：
 * [BITCOIN LIGHTNING NETWORK](https://lnroute.com/)
 * [awesome-lightning-network](https://github.com/bcongdon/awesome-lightning-network)
