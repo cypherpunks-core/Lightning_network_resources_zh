@@ -47,6 +47,7 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 * [BITCOIN LIGHTNING NETWORK](https://lnroute.com/)-資源和信息指南
 * [awesome-lightning-network](https://github.com/bcongdon/awesome-lightning-network)-為開發人員和加密愛好者提供的精彩Lightning Network項目列表
 * [lightning.network](https://lightning.network/)
+* [blockstream LN](https://www.blockstream.com/lightning/)
 
 ### 閃電網路概述 | Lightning Network Overview
 * [Binance-什麼事閃電網路？](/article/Binance-區塊鏈/什麼是閃電網絡.md)
