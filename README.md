@@ -33,8 +33,11 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 
 ## 閃電網路協議 | Lightning Network Protocol
 > 閃電網絡（英語：Lightning Network）是工作在區塊鏈上（主要面向比特幣）的第二層支付協議。其設計目的是實現交易雙方的即時交易，而區塊鏈的交易頻率則受限於其容量。
+
 > 主要思路 -閃電網絡的主要思路為將大量交易放到比特幣區塊鏈之外進行。閃電網絡通過智能合約來完善鏈下的交易渠道。在整個交易中，智能合約起到了中介的重要角色，而區塊鏈則確保最終的交易結果被確認。
+
 > 閃電網路是一個提議端到端連接的雙向支付通道路由網路。像這樣的網路可以允許任何參與者在無需信任任何中間人的情況下將支付從通道發送到通道。[閃電網路](https://lightning.network/lightning-network-paper.pdf)  [由Joseph Poon和Thadeus Dryja於2015年2月首先描述]，建立在許多其他人提出和闡述的支付通道的概念上。
+
 > “閃電網路”是指用於路由支付通道網路的特定設計，現在已經由至少五個不同的開源團隊實現。獨立實現由一組互操作性標準進行協調：http://bit.ly/2rBHeoL[ Basics of Lightning Technology (BOLT) paper]。
 > 閃電網路的原型實現已由多個團隊發佈。目前，這些實現只能在testnet上運行，因為它們使用segwit，而沒有在主比特幣區塊鏈(mainnet)上激活。
 
