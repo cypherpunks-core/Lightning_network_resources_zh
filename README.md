@@ -33,7 +33,7 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 * 課程-[課程：區塊鏈技術與應用](https://docs.google.com/document/d/1R2lQ3NN6IFYT3fQ2G5D8TRcTw2bd4JTNMW8QbKimu8Q/edit?fbclid=IwAR3lpqDPNpelERgr_KHaHCBRI0R0QXQUn2tifwCEzfpXJpX8XWaHzPrqn5s#heading=h.3n87a6jtx1p1)
 * 課程-[課程：以太坊原理與應用開發](https://docs.google.com/document/d/16V3HBwE78-vOex58P8s59TMxifhQi85_-whUd1ACd40/edit?fbclid=IwAR3mVk1wy40fglSFmNEi-CrELvmjv963Zdu0wQING4SSE4IA0dd9JzDpWdQ#heading=h.3n87a6jtx1p1)
 
-## 閃電網路協議 | Lightning Network Protocol
+## :zap:閃電網路協議 | Lightning Network Protocol
 > 閃電網絡（英語：Lightning Network）是工作在區塊鏈上（主要面向比特幣）的第二層支付協議。其設計目的是實現交易雙方的即時交易，而區塊鏈的交易頻率則受限於其容量。
 
 > 主要思路 -閃電網絡的主要思路為將大量交易放到比特幣區塊鏈之外進行。閃電網絡通過智能合約來完善鏈下的交易渠道。在整個交易中，智能合約起到了中介的重要角色，而區塊鏈則確保最終的交易結果被確認。
@@ -50,7 +50,7 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 * [Blockstream LN](https://www.blockstream.com/lightning/)
 * [eclair — ACINQ](https://acinq.co/)
 
-### 閃電網路概述 | Lightning Network Overview
+### :zap:閃電網路概述 | Lightning Network Overview
 * [Binance-什麼事閃電網路？](/article/Binance-區塊鏈/什麼是閃電網絡.md)
 * [動區-什麼是Segwit隔離見證？](https://www.blocktempo.com/understand-segwit-in3mins) 2018-03-05
 * [動區-五分鐘就看懂：圖說閃電網路](https://www.blocktempo.com/lightning-network/) 2018-04-05
@@ -64,7 +64,7 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 ](https://www.youtube.com/watch?v=pW615Yme2Ik)
 * [簡單解釋比特幣的閃電網路 (Bitcoin's Lightning Network, Simply Explained!)](https://tw.voicetube.com/videos/66936)
 
-### 進階閃電網路 ｜ Advanced lightning network
+### :zap:進階閃電網路 ｜ Advanced lightning network
 
 #### 主要論文 | Main paper
 * :page_facing_up:[“比特幣閃電網絡”：論文-簡中](https://github.com/ChenPoWei/bitcoincn/blob/master/%E6%AF%94%E7%89%B9%E5%B8%81%E9%97%AA%E7%94%B5%E7%BD%91%E7%BB%9C%E7%99%BD%E7%9A%AE%E4%B9%A6%EF%BC%9A%E5%8F%AF%E6%89%A9%E5%B1%95%E7%9A%84%20off-chain%20%E5%8D%B3%E6%97%B6%E6%94%AF%E4%BB%98%EF%BC%88%E4%B8%AD%E6%96%87%EF%BC%89.pdf)
@@ -92,7 +92,7 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 * :page_facing_up:[可部署的閃電白皮書](https://github.com/ElementsProject/lightning/blob/master/doc/deployable-lightning.pdf)
 * :page_facing_up:[比特幣微支付信道網絡的可擴展資金](https://www.tik.ee.ethz.ch/file/a20a865ce40d40c8f942cf206a7cba96/Scalable_Funding_Of_Blockchain_Micropayment_Networks%20(1).pdf)
 
-### 實現 | Implementations
+### :zap:實現 | Implementations
 
 閃電網路協議的實現
 
@@ -104,7 +104,7 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 * [nayutaco/ptarmigan](https://github.com/nayutaco/ptarmigan) - 符合C ++ BOLT標準的Lightning網路實現[Incomplete]
 * [LightningPeach/lpd](https://github.com/LightningPeach/lpd) - 是Rust語言中Lightning Network節點的部分實現。
 
-### 閃電網路 app
+### :zap:閃電網路 app
 * [These are the Top 10 Lightning Apps out right now](https://kintu.co/lightning-apps/)
 * [Lightning App Directory](https://dev.lightning.community/lapps/)
 
@@ -158,13 +158,13 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 * [Robtex比特幣Lightning Explorer](https://www.robtex.com/lightning/node/) -  統計閃電節點數、殭屍節點數、活動節點數、活動節點數24h、活動節點數1w、活動節點數1m、總開放通道數、總封閉頻道、總頻道容量。
 * [itcoinExchangeRate.org (Bitcoin 匯率)](https://bitcoinexchangerate.org/lightning) -  Lightning網路瀏覽器(testnet和mainnet)
 
-## 特殊項目 | Special item
+## :zap:特殊項目 | Special item
 * [Stadicus/guides](https://github.com/Stadicus/guides/blob/master/raspibolt/README.md)-在Raspberry Pi 上搭建 Lightning Network
 * [rstmsn/lnd-for-wp](https://github.com/rstmsn/lnd-for-wp)-LND For WP是一個WordPress插件，允許您直接從WordPress管理面板管理和使用LND節點。它提供了一個功能齊全的錢包界面，使您可以輕鬆地在Lightning Network上發送和接收資金。
 * [opencart 中支持 Lightning Network](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=36414)
 
 
-## 文章 | article
+## :zap:文章 | article
 
 * [Bitcoin Lightning Network常見問題解答](/article/Bitcoin-Lightning-Network-FAQ.md)
 
