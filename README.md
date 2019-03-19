@@ -3,35 +3,33 @@
 ![](bitcoin-lightning-network.png)
 
 ## 目錄 | Contents
-<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+<!-- MarkdownTOC -->
 
-- [:zap:閃電網路資源整理 | :zap:Lightning network resources](#zap閃電網路資源整理-zaplightning-network-resources)
-	- [目錄 | Contents](#目錄-contents)
-	- [比特幣資源 | Bitcoin resources](#比特幣資源-bitcoin-resources)
-		- [區塊鏈概述 | Blockchain overview](#區塊鏈概述-blockchain-overview)
-		- [比特幣的基礎知識 | Basic knowledge of Bitcoin](#比特幣的基礎知識-basic-knowledge-of-bitcoin)
-	- [:zap:閃電網路協議 | Lightning Network Protocol](#zap閃電網路協議-lightning-network-protocol)
-		- [:zap:閃電網路概述 | Lightning Network Overview](#zap閃電網路概述-lightning-network-overview)
-		- [:zap:進階閃電網路 ｜ Advanced lightning network](#zap進階閃電網路-advanced-lightning-network)
-			- [主要論文 | Main paper](#主要論文-main-paper)
-			- [摘要 | abstract](#摘要-abstract)
-			- [演示幻燈片](#演示幻燈片)
-			- [其他論文與規範 | Other papers and specifications](#其他論文與規範-other-papers-and-specifications)
-		- [:zap:實現 | Implementations](#zap實現-implementations)
-		- [:zap:閃電網路 app](#zap閃電網路-app)
-			- [:moneybag:錢包 | Wallet](#moneybag錢包-wallet)
-				- [:computer:桌面界面 | Desktop Interfaces](#computer桌面界面-desktop-interfaces)
-				- [:iphone:移動應用程序 | Mobile applications](#iphone移動應用程序-mobile-applications)
-				- [Web界面 | Web Interfaces](#web界面-web-interfaces)
-			- [:wrench:工具](#wrench工具)
-			- [:ghost:遊戲](#ghost遊戲)
-			- [:tv:瀏覽器 |  Explorers](#tv瀏覽器-explorers)
-	- [:zap:特殊項目 | Special item](#zap特殊項目-special-item)
-	- [:zap:文章 | article](#zap文章-article)
-		- [動區動趨](#動區動趨)
-		- [巴比特](#巴比特)
+- [比特幣資源 | Bitcoin resources](#比特幣資源-|-bitcoin-resources)
+	- [區塊鏈概述 | Blockchain overview](#區塊鏈概述-|-blockchain-overview)
+	- [比特幣的基礎知識 | Basic knowledge of Bitcoin](#比特幣的基礎知識-|-basic-knowledge-of-bitcoin)
+- [:zap:閃電網路協議 | Lightning Network Protocol](#zap閃電網路協議-|-lightning-network-protocol)
+	- [:zap:閃電網路概述 | Lightning Network Overview](#zap閃電網路概述-|-lightning-network-overview)
+	- [:zap:進階閃電網路 ｜ Advanced lightning network](#zap進階閃電網路-｜-advanced-lightning-network)
+		- [主要論文 | Main paper](#主要論文-|-main-paper)
+		- [摘要 | abstract](#摘要-|-abstract)
+		- [演示幻燈片](#演示幻燈片)
+		- [其他論文與規範 | Other papers and specifications](#其他論文與規範-|-other-papers-and-specifications)
+	- [:zap:實現 | Implementations](#zap實現-|-implementations)
+	- [:zap:閃電網路 app](#zap閃電網路-app)
+		- [:moneybag:錢包 | Wallet](#moneybag錢包-|-wallet)
+			- [:computer:桌面界面 | Desktop Interfaces](#computer桌面界面-|-desktop-interfaces)
+			- [:iphone:移動應用程序 | Mobile applications](#iphone移動應用程序-|-mobile-applications)
+			- [Web界面 | Web Interfaces](#web界面-|-web-interfaces)
+		- [:wrench:工具](#wrench工具)
+		- [:ghost:遊戲](#ghost遊戲)
+		- [:tv:瀏覽器 |  Explorers](#tv瀏覽器-|-explorers)
+- [:zap:特殊項目 | Special item](#zap特殊項目-|-special-item)
+- [:zap:文章 | article](#zap文章-|-article)
+	- [動區動趨](#動區動趨)
+	- [巴比特](#巴比特)
 
-<!-- /TOC -->
+<!-- /MarkdownTOC -->
 
 
 <a id="比特幣資源-|-bitcoin-resources"></a>
