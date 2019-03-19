@@ -2,7 +2,7 @@
 ![](https://img.shields.io/badge/Powered%20by-Chen%20Po%20Wei-blue.svg)
 ![](bitcoin-lightning-network.png)
 ## 比特幣資源 | Bitcoin resources
-比特幣是一種基於去中心化，採用點對點網路與共識主動性，開放原始碼，以區塊鏈作為底層技術的加密貨幣，比特幣由中本聰於2008年10月31日發表論文
+比特幣是一種基於去中心化，採用點對點網路與共識主動性，開放原始碼，以區塊鏈作為底層技術的加密貨幣，比特幣由中本聰於2008年10月31日發表論文。
 
 ### 區塊鏈概述 | Blockchain overview
 
@@ -34,9 +34,8 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)**
 * 課程-[課程：以太坊原理與應用開發](https://docs.google.com/document/d/16V3HBwE78-vOex58P8s59TMxifhQi85_-whUd1ACd40/edit?fbclid=IwAR3mVk1wy40fglSFmNEi-CrELvmjv963Zdu0wQING4SSE4IA0dd9JzDpWdQ#heading=h.3n87a6jtx1p1)
 
 ## :zap:閃電網路協議 | Lightning Network Protocol
-> 閃電網絡（英語：Lightning Network）是工作在區塊鏈上（主要面向比特幣）的第二層支付協議。其設計目的是實現交易雙方的即時交易，而區塊鏈的交易頻率則受限於其容量。
-
-> 主要思路 -閃電網絡的主要思路為將大量交易放到比特幣區塊鏈之外進行。閃電網絡通過智能合約來完善鏈下的交易渠道。在整個交易中，智能合約起到了中介的重要角色，而區塊鏈則確保最終的交易結果被確認。
+閃電網絡（英語：Lightning Network）是工作在區塊鏈上（主要面向比特幣）的第二層支付協議。其設計目的是實現交易雙方的即時交易，而區塊鏈的交易頻率則受限於其容量。
+**主要思路 -閃電網絡的主要思路為將大量交易放到比特幣區塊鏈之外進行。閃電網絡通過智能合約來完善鏈下的交易渠道。在整個交易中，智能合約起到了中介的重要角色，而區塊鏈則確保最終的交易結果被確認。**
 
 > 閃電網路是一個提議端到端連接的雙向支付通道路由網路。像這樣的網路可以允許任何參與者在無需信任任何中間人的情況下將支付從通道發送到通道。[閃電網路](https://lightning.network/lightning-network-paper.pdf)由Joseph Poon和Thadeus Dryja於2015年2月首先描述，建立在許多其他人提出和闡述的支付通道的概念上。
 
