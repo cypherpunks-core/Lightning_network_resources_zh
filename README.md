@@ -121,7 +121,7 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)**
 
 * **[lightninglabs/lightning-app](https://github.com/lightninglabs/lightning-app) - 易於使用的跨平台閃電錢包**
 * **[LN-Zap/zap-desktop](https://github.com/LN-Zap/zap-desktop) -  Zap是一款免費的Lightning Network錢包，專注於用戶體驗和易用性，其總體目標是幫助加密貨幣社區擴展比特幣和其他加密貨幣。**
-* **[icota/presto](https://github.com/icota/presto) - Presto - 基於c-lightning的桌面和移動閃電網絡錢包 **
+* **[icota/presto](https://github.com/icota/presto) - Presto - 基於c-lightning的桌面和移動閃電網絡錢包**
 * **[LightningPeach/lightning-peach-wallet](https://github.com/LightningPeach/lightning-peach-wallet) -  Bitfury Lightning錢包**
 * **[shesek/spark-wallet](https://github.com/shesek/spark-wallet) - 用於c-lightning的最小GUI; 可用作網路，移動和桌面應用程序**
 * [alexbosworth/lnd-gui](https://github.com/alexbosworth/lnd-gui) -  Lightning MacOS GUI錢包
