@@ -3,33 +3,35 @@
 ![](bitcoin-lightning-network.png)
 
 ## 目錄 | Contents
-<!-- MarkdownTOC -->
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [比特幣資源 | Bitcoin resources](#比特幣資源-|-bitcoin-resources)
-	- [區塊鏈概述 | Blockchain overview](#區塊鏈概述-|-blockchain-overview)
-	- [比特幣的基礎知識 | Basic knowledge of Bitcoin](#比特幣的基礎知識-|-basic-knowledge-of-bitcoin)
-- [:zap:閃電網路協議 | Lightning Network Protocol](#zap閃電網路協議-|-lightning-network-protocol)
-	- [:zap:閃電網路概述 | Lightning Network Overview](#zap閃電網路概述-|-lightning-network-overview)
-	- [:zap:進階閃電網路 ｜ Advanced lightning network](#zap進階閃電網路-｜-advanced-lightning-network)
-		- [主要論文 | Main paper](#主要論文-|-main-paper)
-		- [摘要 | abstract](#摘要-|-abstract)
-		- [演示幻燈片](#演示幻燈片)
-		- [其他論文與規範 | Other papers and specifications](#其他論文與規範-|-other-papers-and-specifications)
-	- [:zap:實現 | Implementations](#zap實現-|-implementations)
-	- [:zap:閃電網路 app](#zap閃電網路-app)
-		- [:moneybag:錢包 | Wallet](#moneybag錢包-|-wallet)
-			- [:computer:桌面界面 | Desktop Interfaces](#computer桌面界面-|-desktop-interfaces)
-			- [:iphone:移動應用程序 | Mobile applications](#iphone移動應用程序-|-mobile-applications)
-			- [Web界面 | Web Interfaces](#web界面-|-web-interfaces)
-		- [:wrench:工具](#wrench工具)
-		- [:ghost:遊戲](#ghost遊戲)
-		- [:tv:瀏覽器 |  Explorers](#tv瀏覽器-|-explorers)
-- [:zap:特殊項目 | Special item](#zap特殊項目-|-special-item)
-- [:zap:文章 | article](#zap文章-|-article)
-	- [動區動趨](#動區動趨)
-	- [巴比特](#巴比特)
+- [:zap:閃電網路資源整理 | :zap:Lightning network resources](#zap閃電網路資源整理-zaplightning-network-resources)
+	- [目錄 | Contents](#目錄-contents)
+	- [比特幣資源 | Bitcoin resources](#比特幣資源-bitcoin-resources)
+		- [區塊鏈概述 | Blockchain overview](#區塊鏈概述-blockchain-overview)
+		- [比特幣的基礎知識 | Basic knowledge of Bitcoin](#比特幣的基礎知識-basic-knowledge-of-bitcoin)
+	- [:zap:閃電網路協議 | Lightning Network Protocol](#zap閃電網路協議-lightning-network-protocol)
+		- [:zap:閃電網路概述 | Lightning Network Overview](#zap閃電網路概述-lightning-network-overview)
+		- [:zap:進階閃電網路 ｜ Advanced lightning network](#zap進階閃電網路-advanced-lightning-network)
+			- [主要論文 | Main paper](#主要論文-main-paper)
+			- [摘要 | abstract](#摘要-abstract)
+			- [演示幻燈片](#演示幻燈片)
+			- [其他論文與規範 | Other papers and specifications](#其他論文與規範-other-papers-and-specifications)
+		- [:zap:實現 | Implementations](#zap實現-implementations)
+		- [:zap:閃電網路 app](#zap閃電網路-app)
+			- [:moneybag:錢包 | Wallet](#moneybag錢包-wallet)
+				- [:computer:桌面界面 | Desktop Interfaces](#computer桌面界面-desktop-interfaces)
+				- [:iphone:移動應用程序 | Mobile applications](#iphone移動應用程序-mobile-applications)
+				- [Web界面 | Web Interfaces](#web界面-web-interfaces)
+			- [:wrench:工具](#wrench工具)
+			- [:ghost:遊戲](#ghost遊戲)
+			- [:tv:瀏覽器 |  Explorers](#tv瀏覽器-explorers)
+	- [:zap:特殊項目 | Special item](#zap特殊項目-special-item)
+	- [:zap:文章 | article](#zap文章-article)
+		- [動區動趨](#動區動趨)
+		- [巴比特](#巴比特)
 
-<!-- /MarkdownTOC -->
+<!-- /TOC -->
 
 
 <a id="比特幣資源-|-bitcoin-resources"></a>
@@ -79,9 +81,9 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)**
 
 
 
-主要來源：    
-* ***[Radar ION](https://ion.radar.tech/)-加入閃電網絡的指南***    
-* ***[lightning.engineering](https://lightning.engineering/index.html)***    
+主要來源：
+* ***[Radar ION](https://ion.radar.tech/)-加入閃電網絡的指南***
+* ***[lightning.engineering](https://lightning.engineering/index.html)***
 
 * [BITCOIN LIGHTNING NETWORK](https://lnroute.com/)-資源和信息指南
 * [awesome-lightning-network](https://github.com/bcongdon/awesome-lightning-network)-為開發人員和加密愛好者提供的精彩Lightning Network項目列表
@@ -95,7 +97,7 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)**
 * [動區-什麼是Segwit隔離見證？](https://www.blocktempo.com/understand-segwit-in3mins) 2018-03-05
 * **[動區-五分鐘就看懂：圖說閃電網路](https://www.blocktempo.com/lightning-network/) 2018-04-05**
 * [動區-為何比特幣閃電網路的可視化器（Visualizer）跟看到的不太一樣?](https://www.blocktempo.com/bitcoin-lightning-visualizer-dont-seem-to-be-what-they-seem) 2018-04-15
-* [動區-閃電網路是比特幣的未來？——解決方案全攻略](https://www.blocktempo.com/the-future-of-bitcoin-what-lightning-could-look-like) 
+* [動區-閃電網路是比特幣的未來？——解決方案全攻略](https://www.blocktempo.com/the-future-of-bitcoin-what-lightning-could-look-like)
 * [Wikipedia Lightning Network](/article/wikipedia-Lightning-Network.md)
 * [Lightning network/Payment channel](https://drive.google.com/file/d/0B7rTe1bpN56HeDJfZFBjcWk4Tm8/view) by Brian Po-han Chen
 * [ Raiden Network — Ethereum 區塊鏈支付通道](https://medium.com/taipei-ethereum-meetup/raiden-network-ethereum-%E5%8D%80%E5%A1%8A%E9%8F%88%E6%94%AF%E4%BB%98%E9%80%9A%E9%81%93-c44cea954e9b)
@@ -175,7 +177,7 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)**
 <a id="iphone移動應用程序-|-mobile-applications"></a>
 ##### :iphone:移動應用程序 | Mobile applications
 
-* **Android** 
+* **Android**
 	* [Eclair Mobile](https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2)
 	* [Hoo Wallet](https://hoo.com/)-適用於Android的移動閃電錢包。此錢包是非託管的，需要運行您自己的完整節點。
 	* [Eclair](https://github.com/ACINQ/eclair-mobile)Eclair移動應用程序是一款非託管移動Lightning Network錢包，現在可以啟用閃電接收功能。以前只能發送資金。
@@ -276,10 +278,10 @@ Poon和Dryja的願景可能很快就會實現，因為Blockstream正在努力推
 * [閃電網路如何為比特幣網路新增隱私層？](https://www.8btc.com/article/113116)2016-12-20 12:13
 * [閃電網路協議開發者Russell：沒有隔離見證的閃電網路是不優雅的](https://www.8btc.com/article/113250)2016-12-21 11:14
 * [數學證明：閃電網路無法成為去中心化的比特幣擴容方案](https://www.8btc.com/article/132567)2017-07-04 08:45
-* [Gavin Andresen：閃電網路是高度中心化的](https://www.8btc.com/article/137798)2017-08-17 
-* [如何在Linux系統建立自己的閃電網路節點和通道](https://www.8btc.com/article/156211)2018-01-24 
+* [Gavin Andresen：閃電網路是高度中心化的](https://www.8btc.com/article/137798)2017-08-17
+* [如何在Linux系統建立自己的閃電網路節點和通道](https://www.8btc.com/article/156211)2018-01-24
 * [Andreas Antonopoulos：關於閃電網路的六大誤解](https://www.8btc.com/article/163750)2018-02-23 08:22
-* [閃電網路對比特幣隱私性的利弊](https://www.8btc.com/article/165281)2018-02-26 
+* [閃電網路對比特幣隱私性的利弊](https://www.8btc.com/article/165281)2018-02-26
 * [閃電網路入門：如何傳送你的第一筆交易？](https://www.8btc.com/article/165568)2018-03-02
 * [比特幣的未來？淺析閃電網路的優勢及創新之處](https://www.8btc.com/article/181491)2018-03-25 10:45
 * [Blockstream LApp周，八款閃電網路應用盤點](https://www.8btc.com/article/186239)2018-03-30 18:41
