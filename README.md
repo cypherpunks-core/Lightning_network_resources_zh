@@ -47,7 +47,8 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 
 主要來源：    
 ***[Radar ION](https://ion.radar.tech/)-加入閃電網絡的指南***    
-***[lightning.engineering](https://lightning.engineering/index.html)***.   
+***[lightning.engineering](https://lightning.engineering/index.html)***    
+
 * [BITCOIN LIGHTNING NETWORK](https://lnroute.com/)-資源和信息指南
 * [awesome-lightning-network](https://github.com/bcongdon/awesome-lightning-network)-為開發人員和加密愛好者提供的精彩Lightning Network項目列表
 * [lightning.network](https://lightning.network/)
