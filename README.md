@@ -115,8 +115,8 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)**
 * [Lightning App Directory](https://dev.lightning.community/lapps/)
 
 
-#### 錢包 | Wallet
-##### 桌面界面 | Desktop Interfaces
+#### :moneybag:錢包 | Wallet
+##### :computer:桌面界面 | Desktop Interfaces
 
 * **[lightninglabs/lightning-app](https://github.com/lightninglabs/lightning-app) - 易於使用的跨平台閃電錢包**
 * **[LN-Zap/zap-desktop](https://github.com/LN-Zap/zap-desktop) -  Zap是一款免費的Lightning Network錢包，專注於用戶體驗和易用性，其總體目標是幫助加密貨幣社區擴展比特幣和其他加密貨幣。**
@@ -127,7 +127,7 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)**
 * [ACINQ/eclair](https://github.com/ACINQ/eclair) -  Lightning的跨平台桌面GUI
 * [benharold/voltage](https://github.com/benharold/voltage) - 是c-lightning的macOS GUI
 
-##### 移動應用程序 | Mobile applications
+##### :iphone:移動應用程序 | Mobile applications
 
 * **Android** 
 	* [Eclair Mobile](https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2)
@@ -153,14 +153,14 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)**
 * [bitlum.io](https://bitlum.io/)-Bitlum是一個Lightning Network主網絡錢包。快速，簡單，無需安裝節點。設置只需5分鐘訪問。
 * [tippin.me](https://tippin.me/)-Lightning Wallet和Tipping服務tippin.me發布了Chrome和Firefox的擴展程序，將其服務與Twitter集成。
 
-#### 工具
+#### :wrench:工具
 * [Lightning Decoder](https://lightningdecoder.com/)-另一種解碼Lightning Network Invoice（BOLT11）的在線工具。
 
-#### 遊戲
+#### :ghost:遊戲
 * [BC.Game](https://bc.game/atm)-BC.Game是一個BlockChain遊戲平台，具有可靠的公平，快速支付，免費水龍頭和Lightning Network支持。一些可用的遊戲是Crash，Dice和Blackjack。
 
 
-#### 瀏覽器 |  Explorers
+#### :tv:瀏覽器 |  Explorers
 * **閃電網路節點瀏覽器**
 	* [Casa](https://explore.casa/)-一個快速瀏覽器，允許您查詢節點和通道。節點詳細信息包括星圖和頻道列表。
 	* [acinq.co](https://explorer.acinq.co/)
