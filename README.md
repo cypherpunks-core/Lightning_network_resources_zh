@@ -9,9 +9,9 @@
 * [區塊鏈技術漫談](區塊鏈技術漫談.md)
 
 ### 比特幣的基礎知識 | Basic knowledge of Bitcoin
-* :clapper:[比特幣和區塊鏈到底是啥？礦機挖礦咋回事？李永樂老師講比特幣(1)](https://www.youtube.com/watch?v=g_fSistU3MQ)
-* :clapper:[比特幣交易如何防偽？私鑰公鑰地址啥意思？李永樂老師講比特幣(2)](
-https://www.youtube.com/watch?v=pbAVauYsqP0)
+* :clapper:**[比特幣和區塊鏈到底是啥？礦機挖礦咋回事？李永樂老師講比特幣(1)](https://www.youtube.com/watch?v=g_fSistU3MQ)**
+* :clapper:**[比特幣交易如何防偽？私鑰公鑰地址啥意思？李永樂老師講比特幣(2)](
+https://www.youtube.com/watch?v=pbAVauYsqP0)**
 * :clapper:[你有疑惑過比特幣(與其他加密貨幣)的運作原理嗎？(純英文)](https://youtu.be/bBC-nXj3Ng4)
 * :clapper:[你有疑惑過比特幣(與其他加密貨幣)的運作原理嗎？(簡中字幕)](https://www.bilibili.com/video/av12465079)
 * Binance 學院：
@@ -28,8 +28,8 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 		* [加密學的歷史](/article/Binance-安全/加密學的歷史.md)
 		* [什麼是多重簽名錢包](/article/Binance-安全/什麼是多重簽名錢包.md)
 		* [普遍安全原則](/article/Binance-安全/普遍安全原則.md)
-* :page_facing_up:[比特幣：一種點對點的電子現金系統 繁中](https://github.com/ChenPoWei/bitcoin_whitepaper_zh)
-* :closed_book:[Mastering Bitcoin 第二版 繁中](https://forum.cypherpunks.tech/t/topic/131)
+* :page_facing_up:**[比特幣：一種點對點的電子現金系統 繁中](https://github.com/ChenPoWei/bitcoin_whitepaper_zh)**
+* :closed_book:**[Mastering Bitcoin 第二版 繁中](https://forum.cypherpunks.tech/t/topic/131)**
 * 課程-[課程：區塊鏈技術與應用](https://docs.google.com/document/d/1R2lQ3NN6IFYT3fQ2G5D8TRcTw2bd4JTNMW8QbKimu8Q/edit?fbclid=IwAR3lpqDPNpelERgr_KHaHCBRI0R0QXQUn2tifwCEzfpXJpX8XWaHzPrqn5s#heading=h.3n87a6jtx1p1)
 * 課程-[課程：以太坊原理與應用開發](https://docs.google.com/document/d/16V3HBwE78-vOex58P8s59TMxifhQi85_-whUd1ACd40/edit?fbclid=IwAR3mVk1wy40fglSFmNEi-CrELvmjv963Zdu0wQING4SSE4IA0dd9JzDpWdQ#heading=h.3n87a6jtx1p1)
 
@@ -46,8 +46,8 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 
 
 主要來源：    
-***[Radar ION](https://ion.radar.tech/)-加入閃電網絡的指南***    
-***[lightning.engineering](https://lightning.engineering/index.html)***    
+* ***[Radar ION](https://ion.radar.tech/)-加入閃電網絡的指南***    
+* ***[lightning.engineering](https://lightning.engineering/index.html)***    
 
 * [BITCOIN LIGHTNING NETWORK](https://lnroute.com/)-資源和信息指南
 * [awesome-lightning-network](https://github.com/bcongdon/awesome-lightning-network)-為開發人員和加密愛好者提供的精彩Lightning Network項目列表
@@ -56,9 +56,9 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 * [eclair — ACINQ](https://acinq.co/)
 
 ### :zap:閃電網路概述 | Lightning Network Overview
-* [Binance-什麼事閃電網路？](/article/Binance-區塊鏈/什麼是閃電網絡.md)
+* **[Binance-什麼事閃電網路？](/article/Binance-區塊鏈/什麼是閃電網絡.md)**
 * [動區-什麼是Segwit隔離見證？](https://www.blocktempo.com/understand-segwit-in3mins) 2018-03-05
-* [動區-五分鐘就看懂：圖說閃電網路](https://www.blocktempo.com/lightning-network/) 2018-04-05
+* **[動區-五分鐘就看懂：圖說閃電網路](https://www.blocktempo.com/lightning-network/) 2018-04-05**
 * [動區-為何比特幣閃電網路的可視化器（Visualizer）跟看到的不太一樣?](https://www.blocktempo.com/bitcoin-lightning-visualizer-dont-seem-to-be-what-they-seem) 2018-04-15
 * [動區-閃電網路是比特幣的未來？——解決方案全攻略](https://www.blocktempo.com/the-future-of-bitcoin-what-lightning-could-look-like) 
 * [Wikipedia Lightning Network](/article/wikipedia-Lightning-Network.md)
@@ -72,7 +72,7 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)
 ### :zap:進階閃電網路 ｜ Advanced lightning network
 
 #### 主要論文 | Main paper
-* :page_facing_up:[“比特幣閃電網絡”：論文-簡中](https://github.com/ChenPoWei/bitcoincn/blob/master/%E6%AF%94%E7%89%B9%E5%B8%81%E9%97%AA%E7%94%B5%E7%BD%91%E7%BB%9C%E7%99%BD%E7%9A%AE%E4%B9%A6%EF%BC%9A%E5%8F%AF%E6%89%A9%E5%B1%95%E7%9A%84%20off-chain%20%E5%8D%B3%E6%97%B6%E6%94%AF%E4%BB%98%EF%BC%88%E4%B8%AD%E6%96%87%EF%BC%89.pdf)
+* :page_facing_up:**[“比特幣閃電網絡”：論文-簡中](https://github.com/ChenPoWei/bitcoincn/blob/master/%E6%AF%94%E7%89%B9%E5%B8%81%E9%97%AA%E7%94%B5%E7%BD%91%E7%BB%9C%E7%99%BD%E7%9A%AE%E4%B9%A6%EF%BC%9A%E5%8F%AF%E6%89%A9%E5%B1%95%E7%9A%84%20off-chain%20%E5%8D%B3%E6%97%B6%E6%94%AF%E4%BB%98%EF%BC%88%E4%B8%AD%E6%96%87%EF%BC%89.pdf)**
 * :page_facing_up:[“比特幣閃電網絡”：論文-英文](https://lightning.network/lightning-network-paper.pdf)
 
 **摘要**。比特幣協議可以涵蓋當今所有電子支付系統中的全球金融交易量，而沒有單個監管第三方持有資金或要求參與者在家庭寬帶連接上具有任何不僅僅是計算機。提出了一種分散的系統，通過微支付渠道(例如支付渠道或交易渠道)的網絡發送交易，其價值轉移發生在區塊鏈之外。如果比特幣交易可以使用新的sighash類型進行簽名，這種類型可以解決延展性問題，那麼這些轉移可能發生在轉移路線上的不信任方之間，這些合同可以通過比特幣區塊鏈在不合作或敵對參與者的情況下通過廣播強制執行，通過一系列遞減時間。
