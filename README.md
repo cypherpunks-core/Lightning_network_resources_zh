@@ -1,3 +1,10 @@
+
+# :zap:閃電網路資源整理 | :zap:Lightning network resources
+![](https://img.shields.io/badge/Powered%20by-Chen%20Po%20Wei-blue.svg)
+![](bitcoin-lightning-network.png)
+
+## 目錄 | Contents
+
 <!-- TOC START min:1 max:3 link:true asterisk:false update:true -->
 - [:zap:閃電網路資源整理 | :zap:Lightning network resources](#zap閃電網路資源整理--zaplightning-network-resources)
 	- [目錄 | Contents](#目錄--contents)
@@ -15,11 +22,6 @@
 		- [巴比特](#巴比特)
 <!-- TOC END -->
 
-# :zap:閃電網路資源整理 | :zap:Lightning network resources
-![](https://img.shields.io/badge/Powered%20by-Chen%20Po%20Wei-blue.svg)
-![](bitcoin-lightning-network.png)
-
-## 目錄 | Contents
 
 ## 比特幣資源 | Bitcoin resources
 比特幣是一種基於去中心化，採用點對點網路與共識主動性，開放原始碼，以區塊鏈作為底層技術的加密貨幣，比特幣由中本聰於2008年10月31日發表論文。
