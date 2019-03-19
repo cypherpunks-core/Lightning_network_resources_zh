@@ -1,47 +1,33 @@
+<!-- TOC START min:1 max:3 link:true asterisk:false update:true -->
+- [:zap:閃電網路資源整理 | :zap:Lightning network resources](#zap閃電網路資源整理--zaplightning-network-resources)
+	- [目錄 | Contents](#目錄--contents)
+	- [比特幣資源 | Bitcoin resources](#比特幣資源--bitcoin-resources)
+		- [區塊鏈概述 | Blockchain overview](#區塊鏈概述--blockchain-overview)
+		- [比特幣的基礎知識 | Basic knowledge of Bitcoin](#比特幣的基礎知識--basic-knowledge-of-bitcoin)
+	- [:zap:閃電網路協議 | Lightning Network Protocol](#zap閃電網路協議--lightning-network-protocol)
+		- [:zap:閃電網路概述 | Lightning Network Overview](#zap閃電網路概述--lightning-network-overview)
+		- [:zap:進階閃電網路 ｜ Advanced lightning network](#zap進階閃電網路--advanced-lightning-network)
+		- [:zap:實現 | Implementations](#zap實現--implementations)
+		- [:zap:閃電網路 app](#zap閃電網路-app)
+	- [:zap:特殊項目 | Special item](#zap特殊項目--special-item)
+	- [:zap:文章 | article](#zap文章--article)
+		- [動區動趨](#動區動趨)
+		- [巴比特](#巴比特)
+<!-- TOC END -->
+
 # :zap:閃電網路資源整理 | :zap:Lightning network resources
 ![](https://img.shields.io/badge/Powered%20by-Chen%20Po%20Wei-blue.svg)
 ![](bitcoin-lightning-network.png)
 
 ## 目錄 | Contents
-<!-- MarkdownTOC -->
 
-- [比特幣資源 | Bitcoin resources](#比特幣資源-|-bitcoin-resources)
-	- [區塊鏈概述 | Blockchain overview](#區塊鏈概述-|-blockchain-overview)
-	- [比特幣的基礎知識 | Basic knowledge of Bitcoin](#比特幣的基礎知識-|-basic-knowledge-of-bitcoin)
-- [:zap:閃電網路協議 | Lightning Network Protocol](#zap閃電網路協議-|-lightning-network-protocol)
-	- [:zap:閃電網路概述 | Lightning Network Overview](#zap閃電網路概述-|-lightning-network-overview)
-	- [:zap:進階閃電網路 ｜ Advanced lightning network](#zap進階閃電網路-｜-advanced-lightning-network)
-		- [主要論文 | Main paper](#主要論文-|-main-paper)
-		- [摘要 | abstract](#摘要-|-abstract)
-		- [演示幻燈片](#演示幻燈片)
-		- [其他論文與規範 | Other papers and specifications](#其他論文與規範-|-other-papers-and-specifications)
-	- [:zap:實現 | Implementations](#zap實現-|-implementations)
-	- [:zap:閃電網路 app](#zap閃電網路-app)
-		- [:moneybag:錢包 | Wallet](#moneybag錢包-|-wallet)
-			- [:computer:桌面界面 | Desktop Interfaces](#computer桌面界面-|-desktop-interfaces)
-			- [:iphone:移動應用程序 | Mobile applications](#iphone移動應用程序-|-mobile-applications)
-			- [Web界面 | Web Interfaces](#web界面-|-web-interfaces)
-		- [:wrench:工具](#wrench工具)
-		- [:ghost:遊戲](#ghost遊戲)
-		- [:tv:瀏覽器 |  Explorers](#tv瀏覽器-|-explorers)
-- [:zap:特殊項目 | Special item](#zap特殊項目-|-special-item)
-- [:zap:文章 | article](#zap文章-|-article)
-	- [動區動趨](#動區動趨)
-	- [巴比特](#巴比特)
-
-<!-- /MarkdownTOC -->
-
-
-<a id="比特幣資源-|-bitcoin-resources"></a>
 ## 比特幣資源 | Bitcoin resources
 比特幣是一種基於去中心化，採用點對點網路與共識主動性，開放原始碼，以區塊鏈作為底層技術的加密貨幣，比特幣由中本聰於2008年10月31日發表論文。
 
-<a id="區塊鏈概述-|-blockchain-overview"></a>
 ### 區塊鏈概述 | Blockchain overview
 
 * [區塊鏈技術漫談](區塊鏈技術漫談.md)
 
-<a id="比特幣的基礎知識-|-basic-knowledge-of-bitcoin"></a>
 ### 比特幣的基礎知識 | Basic knowledge of Bitcoin
 * :clapper:**[比特幣和區塊鏈到底是啥？礦機挖礦咋回事？李永樂老師講比特幣(1)](https://www.youtube.com/watch?v=g_fSistU3MQ)**
 * :clapper:**[比特幣交易如何防偽？私鑰公鑰地址啥意思？李永樂老師講比特幣(2)](
@@ -67,7 +53,6 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)**
 * 課程-[課程：區塊鏈技術與應用](https://docs.google.com/document/d/1R2lQ3NN6IFYT3fQ2G5D8TRcTw2bd4JTNMW8QbKimu8Q/edit?fbclid=IwAR3lpqDPNpelERgr_KHaHCBRI0R0QXQUn2tifwCEzfpXJpX8XWaHzPrqn5s#heading=h.3n87a6jtx1p1)
 * 課程-[課程：以太坊原理與應用開發](https://docs.google.com/document/d/16V3HBwE78-vOex58P8s59TMxifhQi85_-whUd1ACd40/edit?fbclid=IwAR3mVk1wy40fglSFmNEi-CrELvmjv963Zdu0wQING4SSE4IA0dd9JzDpWdQ#heading=h.3n87a6jtx1p1)
 
-<a id="zap閃電網路協議-|-lightning-network-protocol"></a>
 ## :zap:閃電網路協議 | Lightning Network Protocol
 閃電網絡（英語：Lightning Network）是工作在區塊鏈上（主要面向比特幣）的第二層支付協議。其設計目的是實現交易雙方的即時交易，而區塊鏈的交易頻率則受限於其容量。
 **主要思路 -閃電網絡的主要思路為將大量交易放到比特幣區塊鏈之外進行。閃電網絡通過智能合約來完善鏈下的交易渠道。在整個交易中，智能合約起到了中介的重要角色，而區塊鏈則確保最終的交易結果被確認。**
@@ -89,7 +74,7 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)**
 * [Blockstream LN](https://www.blockstream.com/lightning/)
 * [eclair — ACINQ](https://acinq.co/)
 
-<a id="zap閃電網路概述-|-lightning-network-overview"></a>
+
 ### :zap:閃電網路概述 | Lightning Network Overview
 * **[Binance-什麼事閃電網路？](/article/Binance-區塊鏈/什麼是閃電網絡.md)**
 * [動區-什麼是Segwit隔離見證？](https://www.blocktempo.com/understand-segwit-in3mins) 2018-03-05
@@ -104,23 +89,21 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)**
 ](https://www.youtube.com/watch?v=pW615Yme2Ik)
 * [簡單解釋比特幣的閃電網路 (Bitcoin's Lightning Network, Simply Explained!)](https://tw.voicetube.com/videos/66936)
 
-<a id="zap進階閃電網路-｜-advanced-lightning-network"></a>
+
 ### :zap:進階閃電網路 ｜ Advanced lightning network
 
-<a id="主要論文-|-main-paper"></a>
+
 #### 主要論文 | Main paper
 * :page_facing_up:**[“比特幣閃電網絡”：論文-簡中](https://github.com/ChenPoWei/bitcoincn/blob/master/%E6%AF%94%E7%89%B9%E5%B8%81%E9%97%AA%E7%94%B5%E7%BD%91%E7%BB%9C%E7%99%BD%E7%9A%AE%E4%B9%A6%EF%BC%9A%E5%8F%AF%E6%89%A9%E5%B1%95%E7%9A%84%20off-chain%20%E5%8D%B3%E6%97%B6%E6%94%AF%E4%BB%98%EF%BC%88%E4%B8%AD%E6%96%87%EF%BC%89.pdf)**
 * :page_facing_up:[“比特幣閃電網絡”：論文-英文](https://lightning.network/lightning-network-paper.pdf)
 
 **摘要**。比特幣協議可以涵蓋當今所有電子支付系統中的全球金融交易量，而沒有單個監管第三方持有資金或要求參與者在家庭寬帶連接上具有任何不僅僅是計算機。提出了一種分散的系統，通過微支付渠道(例如支付渠道或交易渠道)的網絡發送交易，其價值轉移發生在區塊鏈之外。如果比特幣交易可以使用新的sighash類型進行簽名，這種類型可以解決延展性問題，那麼這些轉移可能發生在轉移路線上的不信任方之間，這些合同可以通過比特幣區塊鏈在不合作或敵對參與者的情況下通過廣播強制執行，通過一系列遞減時間。
 
-<a id="摘要-|-abstract"></a>
 #### 摘要 | abstract
 
 * :page_facing_up:[閃電網絡摘要](https://lightning.network/lightning-network-summary.pdf)
 * :page_facing_up:[閃電網絡技術設計概述](https://lightning.network/lightning-network-technical-summary.pdf)
 
-<a id="演示幻燈片"></a>
 #### 演示幻燈片
 
 * [SF比特幣開發](https://lightning.network/lightning-network.pdf)
@@ -129,7 +112,6 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)**
 * [LN作為有向圖單資源信道拓撲
 ](https://docs.google.com/presentation/d/1G4xchDGcO37DJ2lPC_XYyZIUkJc2khnLrCaZXgvDN0U/edit?pref=2&pli=1#slide=id.g85f425098_0_2)
 
-<a id="其他論文與規範-|-other-papers-and-specifications"></a>
 #### 其他論文與規範 | Other papers and specifications
 
 * :page_facing_up:[閃電網路規範](https://github.com/lightningnetwork/lightning-rfc)
@@ -139,7 +121,6 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)**
 * [lightningnetwork/lightning-rfc](https://github.com/lightningnetwork/lightning-rfc)-Lightning Network進行中規範
 
 
-<a id="zap實現-|-implementations"></a>
 ### :zap:實現 | Implementations
 
 閃電網路協議的實現
@@ -152,15 +133,12 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)**
 * [nayutaco/ptarmigan](https://github.com/nayutaco/ptarmigan) - 符合C ++ BOLT標準的Lightning網路實現[Incomplete]
 * [LightningPeach/lpd](https://github.com/LightningPeach/lpd) - 是Rust語言中Lightning Network節點的部分實現。
 
-<a id="zap閃電網路-app"></a>
 ### :zap:閃電網路 app
 * [These are the Top 10 Lightning Apps out right now](https://kintu.co/lightning-apps/)
 * [Lightning App Directory](https://dev.lightning.community/lapps/)
 
 
-<a id="moneybag錢包-|-wallet"></a>
 #### :moneybag:錢包 | Wallet
-<a id="computer桌面界面-|-desktop-interfaces"></a>
 ##### :computer:桌面界面 | Desktop Interfaces
 
 * **[lightninglabs/lightning-app](https://github.com/lightninglabs/lightning-app) - 易於使用的跨平台閃電錢包**
@@ -172,7 +150,6 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)**
 * [ACINQ/eclair](https://github.com/ACINQ/eclair) -  Lightning的跨平台桌面GUI
 * [benharold/voltage](https://github.com/benharold/voltage) - 是c-lightning的macOS GUI
 
-<a id="iphone移動應用程序-|-mobile-applications"></a>
 ##### :iphone:移動應用程序 | Mobile applications
 
 * **Android**
@@ -188,7 +165,6 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)**
 	* [BlueWallet](https://github.com/BlueWallet/BlueWallet)-使用React Native和BlockCypher API構建。
 	> [在Mac OSX上運行LNDHub](https://medium.com/@jpthor/running-lndhub-on-mac-osx-5be6671b2e0c)-如何在Mac OSX上部署和運行LNDHub實例並連接到BlueWallet。
 
-<a id="web界面-|-web-interfaces"></a>
 ##### Web界面 | Web Interfaces
 
 * [Lightning-Family/Discovery-Wallet](https://github.com/Lightning-Family/Discovery-Wallet) - 網路保管錢包; [現場演示](https://wallet.lightning.family)
@@ -200,16 +176,13 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)**
 * [bitlum.io](https://bitlum.io/)-Bitlum是一個Lightning Network主網絡錢包。快速，簡單，無需安裝節點。設置只需5分鐘訪問。
 * [tippin.me](https://tippin.me/)-Lightning Wallet和Tipping服務tippin.me發布了Chrome和Firefox的擴展程序，將其服務與Twitter集成。
 
-<a id="wrench工具"></a>
 #### :wrench:工具
 * [Lightning Decoder](https://lightningdecoder.com/)-另一種解碼Lightning Network Invoice（BOLT11）的在線工具。
 
-<a id="ghost遊戲"></a>
 #### :ghost:遊戲
 * [BC.Game](https://bc.game/atm)-BC.Game是一個BlockChain遊戲平台，具有可靠的公平，快速支付，免費水龍頭和Lightning Network支持。一些可用的遊戲是Crash，Dice和Blackjack。
 
 
-<a id="tv瀏覽器-|-explorers"></a>
 #### :tv:瀏覽器 |  Explorers
 * **閃電網路節點瀏覽器**
 	* [Casa](https://explore.casa/)-一個快速瀏覽器，允許您查詢節點和通道。節點詳細信息包括星圖和頻道列表。
@@ -224,19 +197,16 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)**
 * [Robtex比特幣Lightning Explorer](https://www.robtex.com/lightning/node/) -  統計閃電節點數、殭屍節點數、活動節點數、活動節點數24h、活動節點數1w、活動節點數1m、總開放通道數、總封閉頻道、總頻道容量。
 * [itcoinExchangeRate.org (Bitcoin 匯率)](https://bitcoinexchangerate.org/lightning) -  Lightning網路瀏覽器(testnet和mainnet)
 
-<a id="zap特殊項目-|-special-item"></a>
 ## :zap:特殊項目 | Special item
 * [Stadicus/guides](https://github.com/Stadicus/guides/blob/master/raspibolt/README.md)-在Raspberry Pi 上搭建 Lightning Network
 * [rstmsn/lnd-for-wp](https://github.com/rstmsn/lnd-for-wp)-LND For WP是一個WordPress插件，允許您直接從WordPress管理面板管理和使用LND節點。它提供了一個功能齊全的錢包界面，使您可以輕鬆地在Lightning Network上發送和接收資金。
 * [opencart 中支持 Lightning Network](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=36414)
 
 
-<a id="zap文章-|-article"></a>
 ## :zap:文章 | article
 
 * [Bitcoin Lightning Network常見問題解答](/article/Bitcoin-Lightning-Network-FAQ.md)
 
-<a id="動區動趨"></a>
 ### 動區動趨
 * [比特幣核心開發團隊釋出版本升級：全面支持SegWit](https://www.blocktempo.com/bitcoin-core-support-segwit/) 2018-02-27
 * [【隔離見證｜擴容】比特幣錢包Xapo採用擴容方案「SegWit」](https://www.blocktempo.com/bitcoin-wallet-xapo-implements-scaling-solution-segwit) 2018-05-29
@@ -249,7 +219,6 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)**
 * [閃電網路獲得大量採用中，有望透過Google Chrome、Firefox、Excel等進行比特幣支付](https://www.blocktempo.com/ln-adopting-chrome-firefox/)2018-10-31
 * [比特幣軟體開發公司Blockstream的衛星「太空比特幣計畫」：宣布採用閃電網路](https://www.blocktempo.com/blockstream-satellite-loghtnign-network/) 2018-12-19
 
-<a id="巴比特"></a>
 ### 巴比特
 比特幣閃電網路：可擴充套件的 Off-Chain即時支付
 作者：Joseph Poon和Thaddeus Dryja
