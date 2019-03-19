@@ -297,4 +297,3 @@ Poon和Dryja的願景可能很快就會實現，因為Blockstream正在努力推
 * [硬核乾貨 | 6000字讀懂閃電網路原理](https://www.8btc.com/article/362358)2019-02-18 22:10
 * [AMA | 康奈爾大學教授：閃電網路雖好，但至少存在這4個問題](https://www.8btc.com/article/363404)2019-02-20 17:57
 * [Blockstream釋出閃電網路軟體重大升級，增加最新‘外掛’功能](https://www.8btc.com/article/368520)2019-03-02 18:29
-
