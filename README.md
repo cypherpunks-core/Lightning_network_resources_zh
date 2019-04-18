@@ -192,6 +192,7 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)**
 
 #### :wrench:工具
 * [Lightning Decoder](https://lightningdecoder.com/)-另一種解碼Lightning Network Invoice（BOLT11）的在線工具。
+* [Decoder for Lightning Payment Requests](https://lndecode.com/)-Lightning Network Invoice的線上解碼工具。
 
 #### :ghost:遊戲
 * [BC.Game](https://bc.game/atm)-BC.Game是一個BlockChain遊戲平台，具有可靠的公平，快速支付，免費水龍頭和Lightning Network支持。一些可用的遊戲是Crash，Dice和Blackjack。
@@ -220,6 +221,7 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)**
 ## :zap:文章 | article
 
 * [Bitcoin Lightning Network常見問題解答](/article/Bitcoin-Lightning-Network-FAQ.md)
+* [閃電網路Invoice中的欄位介紹(英文)](https://blockfuse.io/blog/lightning-network-invoices/)
 
 ### 動區動趨
 * [比特幣核心開發團隊釋出版本升級：全面支持SegWit](https://www.blocktempo.com/bitcoin-core-support-segwit/) 2018-02-27
