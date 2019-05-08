@@ -237,15 +237,19 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)**
 
 ### 動區動趨
 * [比特幣核心開發團隊釋出版本升級：全面支持SegWit](https://www.blocktempo.com/bitcoin-core-support-segwit/) 2018-02-27
-* [【隔離見證｜擴容】比特幣錢包Xapo採用擴容方案「SegWit」](https://www.blocktempo.com/bitcoin-wallet-xapo-implements-scaling-solution-segwit) 2018-05-29
-* [【區塊鏈遊戲 Poketoshi｜閃電網絡】讓你在比特幣閃電網絡上玩「神奇寶貝」？](https://www.blocktempo.com/poketoshi-game-brings-nintendo-s-pokemon-onto-bitcoin-lightning-network/) 2018-06-20
-* [閃電網絡高速採用中，2019 年我們能期待的更多](https://www.blocktempo.com/lighning-network-in-2019/) 2019-01-29
 * [【閃電網路被攻擊！】神秘組織「自掏腰包」發起攻擊來提醒開發團隊漏洞存在](https://www.blocktempo.com/lightning-network-hacked-for-its-own-good/) 2018-04-06
 * [【獨立觀點】為何比特幣閃電網路的可視化器（Visualizer）跟看到的不太一樣?](https://www.blocktempo.com/bitcoin-lightning-visualizer-dont-seem-to-be-what-they-seem) 2018-04-15
+* [【隔離見證｜擴容】比特幣錢包Xapo採用擴容方案「SegWit」](https://www.blocktempo.com/bitcoin-wallet-xapo-implements-scaling-solution-segwit) 2018-05-29
+* [【區塊鏈遊戲 Poketoshi｜閃電網絡】讓你在比特幣閃電網絡上玩「神奇寶貝」？](https://www.blocktempo.com/poketoshi-game-brings-nintendo-s-pokemon-onto-bitcoin-lightning-network/) 2018-06-20
 * [【Zcash的隱私版閃電網路｜BOLT】正式上線！——匿名、輕量、小額支付
 ](https://www.blocktempo.com/the-code-for-an-anonymous-lightning-network-is-now-live/) 2018-08-15
 * [閃電網路獲得大量採用中，有望透過Google Chrome、Firefox、Excel等進行比特幣支付](https://www.blocktempo.com/ln-adopting-chrome-firefox/)2018-10-31
 * [比特幣軟體開發公司Blockstream的衛星「太空比特幣計畫」：宣布採用閃電網路](https://www.blocktempo.com/blockstream-satellite-loghtnign-network/) 2018-12-19
+* [閃電網絡高速採用中，2019 年我們能期待的更多](https://www.blocktempo.com/lighning-network-in-2019/) 2019-01-29
+* [推特（Twitter）上現在可以透過閃電網路進行「比特幣打賞」](https://www.blocktempo.com/you-can-now-send-bitcoin-tips-over-lightning-on-twitter-1) 2019-02-19
+* [閃電聖火將燃燒殆盡？ —— 這場全球性實驗帶給比特幣社群的啟發](https://www.blocktempo.com/lighning-torch-burning-out) 2019-04-06
+* [美夢成真！今天起將可以在 Amazon 以閃電網路支付比特幣](https://www.blocktempo.com/you-can-now-shop-with-bitcoin-on-amazon-using-lightning/) 2019-04-23
+* [再下一城！閃電網路實驗室在「比特幣主網上」正式發布桌面版應用](https://www.blocktempo.com/lightning-labs-launches-desktop-app-on-bitcoin-mainnet) 2019-04-24
 
 ### 巴比特
 比特幣閃電網路：可擴充套件的 Off-Chain即時支付
