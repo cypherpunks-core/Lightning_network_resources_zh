@@ -18,9 +18,11 @@
 			- [摘要 | abstract](#%E6%91%98%E8%A6%81--abstract)
 			- [演示幻燈片](#%E6%BC%94%E7%A4%BA%E5%B9%BB%E7%87%88%E7%89%87)
 			- [其他論文與規範 | Other papers and specifications](#%E5%85%B6%E4%BB%96%E8%AB%96%E6%96%87%E8%88%87%E8%A6%8F%E7%AF%84--other-papers-and-specifications)
-		- [:zap:實現 | Implementations](#zap%E5%AF%A6%E7%8F%BE--implementations)
+		- [比特幣 全節點 & 輕量級節點](#%E6%AF%94%E7%89%B9%E5%B9%A3-%E5%85%A8%E7%AF%80%E9%BB%9E--%E8%BC%95%E9%87%8F%E7%B4%9A%E7%AF%80%E9%BB%9E)
+		- [:zap:閃電網路節點實現 | Lightning network node implementation](#zap%E9%96%83%E9%9B%BB%E7%B6%B2%E8%B7%AF%E7%AF%80%E9%BB%9E%E5%AF%A6%E7%8F%BE--lightning-network-node-implementation)
 		- [:zap:閃電網路 app](#zap%E9%96%83%E9%9B%BB%E7%B6%B2%E8%B7%AF-app)
 			- [:moneybag:錢包 | Wallet](#moneybag%E9%8C%A2%E5%8C%85--wallet)
+				- [桌面 + ios + android](#%E6%A1%8C%E9%9D%A2--ios--android)
 				- [:computer:桌面界面 | Desktop Interfaces](#computer%E6%A1%8C%E9%9D%A2%E7%95%8C%E9%9D%A2--desktop-interfaces)
 				- [:iphone:移動應用程序 | Mobile applications](#iphone%E7%A7%BB%E5%8B%95%E6%87%89%E7%94%A8%E7%A8%8B%E5%BA%8F--mobile-applications)
 				- [Web界面 | Web Interfaces](#web%E7%95%8C%E9%9D%A2--web-interfaces)
@@ -133,10 +135,15 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)**
 * :page_facing_up:[比特幣微支付信道網絡的可擴展資金](https://www.tik.ee.ethz.ch/file/a20a865ce40d40c8f942cf206a7cba96/Scalable_Funding_Of_Blockchain_Micropayment_Networks%20(1).pdf)
 * [lightningnetwork/lightning-rfc](https://github.com/lightningnetwork/lightning-rfc)-Lightning Network進行中規範
 
+### 比特幣 全節點 & 輕量級節點
+在運行一個比特幣閃點網路節點必須依賴一個比特幣全節點或是輕量級節點。
+* [Neutrino](https://github.com/lightninglabs/neutrino)：隱私保護比特幣輕客戶端。一個於2017年5月提出的比特幣改進提案＂[Compact Client Side Filtering for Light Clients](https://github.com/Roasbeef/bips/blob/master/gcs_light_client.mediawiki)＂，`neutrino` (BIP 157 & BIP 158) ，重要改進原有的SPV節點使用到的布林過濾器，隱私問題。ps. 目前已經被ZAP錢包採用。
+* [btcd](https://github.com/btcsuite/btcd)： btcd是用Go（golang）編寫的替代全節點比特幣實現。
 
-### :zap:實現 | Implementations
 
-閃電網路協議的實現
+### :zap:閃電網路節點實現 | Lightning network node implementation
+
+閃點網路的節點實現
 
 * **[lightningnetwork/lnd](https://github.com/lightningnetwork/lnd) -  Lightning Network Daemon（lnd） - 是Lightning Network節點的完整實現。(Golang)**
 * **[ElementsProject/lightning](https://github.com/ElementsProject/lightning) -  c-lightning：C語言中符合規範的Lightning Network實現(C)**
@@ -152,10 +159,14 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)**
 
 
 #### :moneybag:錢包 | Wallet
+##### 桌面 + ios + android
+* **[LN-Zap](https://github.com/LN-Zap/) -  Zap是一款免費的Lightning Network錢包，專注於用戶體驗和易用性，其總體目標是幫助加密貨幣社區擴展比特幣和其他加密貨幣。**
+	* [zap-desktop](https://github.com/LN-Zap/zap-desktop)：跨平台Lightning Network錢包專注於用戶體驗和易用性⚡️，可以選用Neutrino輕量級節點，或是遠端控制閃電網路節點。
+	* [zap-iOS](https://github.com/LN-Zap/zap-iOS)：目前僅支持遠端使用閃電網路節點。
+
 ##### :computer:桌面界面 | Desktop Interfaces
 
 * **[lightninglabs/lightning-app](https://github.com/lightninglabs/lightning-app) - 易於使用的跨平台閃電錢包**
-* **[LN-Zap/zap-desktop](https://github.com/LN-Zap/zap-desktop) -  Zap是一款免費的Lightning Network錢包，專注於用戶體驗和易用性，其總體目標是幫助加密貨幣社區擴展比特幣和其他加密貨幣。**
 * **[icota/presto](https://github.com/icota/presto) - Presto - 基於c-lightning的桌面和移動閃電網絡錢包**
 * **[LightningPeach/lightning-peach-wallet](https://github.com/LightningPeach/lightning-peach-wallet) -  Bitfury Lightning錢包**
 * **[shesek/spark-wallet](https://github.com/shesek/spark-wallet) - 用於c-lightning的最小GUI; 可用作網路，移動和桌面應用程序**
@@ -165,6 +176,12 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)**
 
 ##### :iphone:移動應用程序 | Mobile applications
 
+* **Android & iOS**
+	* [ZeusLN/zeus](https://github.com/ZeusLN/zeus)-Zeus基於TypeScript和React-Native構建。它可以在iOS和Android上運行。
+	* [BlueWallet](https://github.com/BlueWallet/BlueWallet)-使用React Native和BlockCypher API構建。
+	> [在Mac OSX上運行LNDHub](https://medium.com/@jpthor/running-lndhub-on-mac-osx-5be6671b2e0c)-如何在Mac OSX上部署和運行LNDHub實例並連接到BlueWallet。
+	* [Bitpie](https://bitpie.com) - iOS 和 Android 上的多幣種錢包，目前已適用於閃電網路。
+
 * **Android**
 	* [Eclair Mobile](https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2)
 	* [Hoo Wallet](https://hoo.com/)-適用於Android的移動閃電錢包。此錢包是非託管的，需要運行您自己的完整節點。
@@ -173,11 +190,6 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)**
 	* [rawtxapp/rawtxapp](https://github.com/rawtxapp/rawtxapp) - 閃電網路錢包(Android，iOS); [主頁](https://rawtx.com)
 	* [biscottigelato/SwiftLightning](https://github.com/biscottigelato/SwiftLightning) - 在LND for iOS之上構建LN錢包
 	* [比特幣閃電錢包](https://play.google.com/store/apps/details?id=com.lightning.walletapp) - 基於Eclair的基於Android的Lightning Network兼容錢包([testnet版本](https：//play.google.com/store/apps/details?id=com.lightning.wallet))
-* **Android & iOS**
-	* [ZeusLN/zeus](https://github.com/ZeusLN/zeus)-Zeus基於TypeScript和React-Native構建。它可以在iOS和Android上運行。
-	* [BlueWallet](https://github.com/BlueWallet/BlueWallet)-使用React Native和BlockCypher API構建。
-	> [在Mac OSX上運行LNDHub](https://medium.com/@jpthor/running-lndhub-on-mac-osx-5be6671b2e0c)-如何在Mac OSX上部署和運行LNDHub實例並連接到BlueWallet。
-	* [Bitpie](https://bitpie.com) - iOS 和 Android 上的多幣種錢包，目前已適用於閃電網路。
 
 ##### Web界面 | Web Interfaces
 
