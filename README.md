@@ -18,7 +18,6 @@
 		- [比特幣 全節點 & 輕量級節點](#%E6%AF%94%E7%89%B9%E5%B9%A3-%E5%85%A8%E7%AF%80%E9%BB%9E--%E8%BC%95%E9%87%8F%E7%B4%9A%E7%AF%80%E9%BB%9E)
 		- [:zap:閃電網路節點實現 | Lightning network node implementation](#zap%E9%96%83%E9%9B%BB%E7%B6%B2%E8%B7%AF%E7%AF%80%E9%BB%9E%E5%AF%A6%E7%8F%BE--lightning-network-node-implementation)
 		- [:zap:閃電網路 插件](#zap%E9%96%83%E9%9B%BB%E7%B6%B2%E8%B7%AF-%E6%8F%92%E4%BB%B6)
-		- [:zap:閃電網路 app](#zap%E9%96%83%E9%9B%BB%E7%B6%B2%E8%B7%AF-app)
 			- [:moneybag:錢包 | Wallet](#moneybag%E9%8C%A2%E5%8C%85--wallet)
 				- [:computer:桌面 + :iphone:ios + :iphone:android](#computer%E6%A1%8C%E9%9D%A2--iphoneios--iphoneandroid)
 				- [:computer:桌面界面 | Desktop Interfaces](#computer%E6%A1%8C%E9%9D%A2%E7%95%8C%E9%9D%A2--desktop-interfaces)
@@ -123,11 +122,8 @@
 ### :zap:閃電網路 插件
 * **[lightningd/plugins](https://github.com/lightningd/plugins) - 支持的插件挺多的，值得參考**
 
-### :zap:閃電網路 app
-* [These are the Top 10 Lightning Apps out right now](https://kintu.co/lightning-apps/)
-* [Lightning App Directory](https://dev.lightning.community/lapps/)
-
 #### :moneybag:錢包 | Wallet
+**https://lightningnetworkstores.com/wallets**
 > 標記：:heavy_exclamation_mark:，請自己斟酌使用，有一定的安全風險
 ##### :computer:桌面 + :iphone:ios + :iphone:android
 * **[LN-Zap](https://github.com/LN-Zap/) -  Zap是一款免費的Lightning Network錢包，專注於用戶體驗和易用性，其總體目標是幫助加密貨幣社區擴展比特幣和其他加密貨幣。**
