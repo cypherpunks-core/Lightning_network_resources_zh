@@ -20,9 +20,9 @@
 		- [:zap:閃電網路 插件](#zap%E9%96%83%E9%9B%BB%E7%B6%B2%E8%B7%AF-%E6%8F%92%E4%BB%B6)
 		- [:zap:閃電網路 app](#zap%E9%96%83%E9%9B%BB%E7%B6%B2%E8%B7%AF-app)
 			- [:moneybag:錢包 | Wallet](#moneybag%E9%8C%A2%E5%8C%85--wallet)
-				- [桌面 + ios + android](#%E6%A1%8C%E9%9D%A2--ios--android)
+				- [:computer:桌面 + :iphone:ios + :iphone:android](#computer%E6%A1%8C%E9%9D%A2--iphoneios--iphoneandroid)
 				- [:computer:桌面界面 | Desktop Interfaces](#computer%E6%A1%8C%E9%9D%A2%E7%95%8C%E9%9D%A2--desktop-interfaces)
-				- [:iphone:移動應用程序 | Mobile applications](#iphone%E7%A7%BB%E5%8B%95%E6%87%89%E7%94%A8%E7%A8%8B%E5%BA%8F--mobile-applications)
+				- [:iphone:行動app | Mobile applications](#iphone%E8%A1%8C%E5%8B%95app--mobile-applications)
 				- [Web界面 | Web Interfaces](#web%E7%95%8C%E9%9D%A2--web-interfaces)
 			- [:wrench:工具](#wrench%E5%B7%A5%E5%85%B7)
 			- [:ghost:遊戲](#ghost%E9%81%8A%E6%88%B2)
@@ -127,16 +127,16 @@
 * [These are the Top 10 Lightning Apps out right now](https://kintu.co/lightning-apps/)
 * [Lightning App Directory](https://dev.lightning.community/lapps/)
 
-
 #### :moneybag:錢包 | Wallet
-##### 桌面 + ios + android
+> 標記：:heavy_exclamation_mark:，請自己斟酌使用，有一定的安全風險
+##### :computer:桌面 + :iphone:ios + :iphone:android
 * **[LN-Zap](https://github.com/LN-Zap/) -  Zap是一款免費的Lightning Network錢包，專注於用戶體驗和易用性，其總體目標是幫助加密貨幣社區擴展比特幣和其他加密貨幣。**
 	* [zap-desktop](https://github.com/LN-Zap/zap-desktop)：跨平台Lightning Network錢包專注於用戶體驗和易用性⚡️，可以選用Neutrino輕量級節點，或是遠端控制閃電網路節點。
 	* [zap-iOS](https://github.com/LN-Zap/zap-iOS)：目前僅支持遠端使用閃電網路節點。
 
 ##### :computer:桌面界面 | Desktop Interfaces
 
-* **[lightninglabs/lightning-app](https://github.com/lightninglabs/lightning-app) - 易於使用的跨平台閃電錢包**
+* **[lightninglabs/lightning-app](https://github.com/lightninglabs/lightning-app) - 易於使用的跨平台閃電錢包，基於Neutrino 輕量級節點**
 * **[icota/presto](https://github.com/icota/presto) - Presto - 基於c-lightning的桌面和移動閃電網絡錢包**
 * **[LightningPeach/lightning-peach-wallet](https://github.com/LightningPeach/lightning-peach-wallet) -  Bitfury Lightning錢包**
 * **[shesek/spark-wallet](https://github.com/shesek/spark-wallet) - 用於c-lightning的最小GUI; 可用作網路，移動和桌面應用程序**
@@ -144,14 +144,13 @@
 * [ACINQ/eclair](https://github.com/ACINQ/eclair) -  Lightning的跨平台桌面GUI
 * [benharold/voltage](https://github.com/benharold/voltage) - 是c-lightning的macOS GUI
 
-##### :iphone:移動應用程序 | Mobile applications
-
+##### :iphone:行動app | Mobile applications
 * **Android & iOS**
 	* [ZeusLN/zeus](https://github.com/ZeusLN/zeus)-Zeus基於TypeScript和React-Native構建。它可以在iOS和Android上運行。
-	* [BlueWallet](https://github.com/BlueWallet/BlueWallet)-使用React Native和BlockCypher API構建。
-	> [在Mac OSX上運行LNDHub](https://medium.com/@jpthor/running-lndhub-on-mac-osx-5be6671b2e0c)-如何在Mac OSX上部署和運行LNDHub實例並連接到BlueWallet。
 	* [Bitpie](https://bitpie.com) - iOS 和 Android 上的多幣種錢包，目前已適用於閃電網路。
-	* [Hoo虎符钱包](https://hoo.com) - 中國首家支持閃電網路Lightning Network的錢包。
+	* [Hoo虎符錢包](https://hoo.com) - 中國首家支持閃電網路Lightning Network的錢包。
+	* :heavy_exclamation_mark:[BlueWallet](https://github.com/BlueWallet/BlueWallet)-使用React Native和BlockCypher API構建。
+	> [在Mac OSX上運行LNDHub](https://medium.com/@jpthor/running-lndhub-on-mac-osx-5be6671b2e0c)-如何在Mac OSX上部署和運行LNDHub實例並連接到BlueWallet。
 
 * **Android**
 	* [Eclair Mobile](https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2)
@@ -161,6 +160,7 @@
 	* [rawtxapp/rawtxapp](https://github.com/rawtxapp/rawtxapp) - 閃電網路錢包(Android，iOS); [主頁](https://rawtx.com)
 	* [biscottigelato/SwiftLightning](https://github.com/biscottigelato/SwiftLightning) - 在LND for iOS之上構建LN錢包
 	* [比特幣閃電錢包](https://play.google.com/store/apps/details?id=com.lightning.walletapp) - 基於Eclair的基於Android的Lightning Network兼容錢包([testnet版本](https：//play.google.com/store/apps/details?id=com.lightning.wallet))
+	* :heavy_exclamation_mark:[walletofsatoshi](https://walletofsatoshi.com/)
 
 ##### Web界面 | Web Interfaces
 
@@ -170,8 +170,8 @@
 * [cdecker/kugelblitz](https://github.com/cdecker/kugelblitz) - 一個簡單的用戶界面，用於c-lightning守護進程閃電和bitcoind
 * [mably/lncli-web](https://github.com/mably/lncli-web) - 用NodeJS / Angular編寫的lnd守護進程的輕量級Web客戶端
 * [ShahanaFarooqui/RTL](https://github.com/ShahanaFarooqui/RTL) - 用NodeJS / Angular 7編寫的LND的Web客戶端
-* [bitlum.io](https://bitlum.io/)-Bitlum是一個Lightning Network主網絡錢包。快速，簡單，無需安裝節點。設置只需5分鐘訪問。
-* [tippin.me](https://tippin.me/)-Lightning Wallet和Tipping服務tippin.me發布了Chrome和Firefox的擴展程序，將其服務與Twitter集成。
+* :heavy_exclamation_mark:[bitlum.io](https://bitlum.io/)-Bitlum是一個Lightning Network主網絡錢包。快速，簡單，無需安裝節點。設置只需5分鐘訪問。
+* :heavy_exclamation_mark:[tippin.me](https://tippin.me/)-Lightning Wallet和Tipping服務tippin.me發布了Chrome和Firefox的擴展程序，將其服務與Twitter集成。
 
 #### :wrench:工具
 * [Lightning Decoder](https://lightningdecoder.com/)-另一種解碼Lightning Network Invoice（BOLT11）的在線工具。
@@ -199,7 +199,6 @@
 * [Stadicus/guides](https://github.com/Stadicus/guides/blob/master/raspibolt/README.md)-在Raspberry Pi 上搭建 Lightning Network
 * [rstmsn/lnd-for-wp](https://github.com/rstmsn/lnd-for-wp)-LND For WP是一個WordPress插件，允許您直接從WordPress管理面板管理和使用LND節點。它提供了一個功能齊全的錢包界面，使您可以輕鬆地在Lightning Network上發送和接收資金。
 * [opencart 中支持 Lightning Network](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=36414)
-
 
 ## :zap:文章 | article
 
