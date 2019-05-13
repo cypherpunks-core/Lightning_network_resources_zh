@@ -8,9 +8,6 @@
 <!-- TOC START min:1 max:3 link:true asterisk:false update:true -->
 - [:zap:閃電網路資源整理 | :zap:Lightning network resources](#zap%E9%96%83%E9%9B%BB%E7%B6%B2%E8%B7%AF%E8%B3%87%E6%BA%90%E6%95%B4%E7%90%86--zaplightning-network-resources)
 	- [目錄 | Contents](#%E7%9B%AE%E9%8C%84--contents)
-	- [比特幣資源 | Bitcoin resources](#%E6%AF%94%E7%89%B9%E5%B9%A3%E8%B3%87%E6%BA%90--bitcoin-resources)
-		- [區塊鏈概述 | Blockchain overview](#%E5%8D%80%E5%A1%8A%E9%8F%88%E6%A6%82%E8%BF%B0--blockchain-overview)
-		- [比特幣的基礎知識 | Basic knowledge of Bitcoin](#%E6%AF%94%E7%89%B9%E5%B9%A3%E7%9A%84%E5%9F%BA%E7%A4%8E%E7%9F%A5%E8%AD%98--basic-knowledge-of-bitcoin)
 	- [:zap:閃電網路協議 | Lightning Network Protocol](#zap%E9%96%83%E9%9B%BB%E7%B6%B2%E8%B7%AF%E5%8D%94%E8%AD%B0--lightning-network-protocol)
 		- [:zap:閃電網路概述 | Lightning Network Overview](#zap%E9%96%83%E9%9B%BB%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%BF%B0--lightning-network-overview)
 		- [:zap:進階閃電網路 ｜ Advanced lightning network](#zap%E9%80%B2%E9%9A%8E%E9%96%83%E9%9B%BB%E7%B6%B2%E8%B7%AF--advanced-lightning-network)
@@ -20,6 +17,7 @@
 			- [其他論文與規範 | Other papers and specifications](#%E5%85%B6%E4%BB%96%E8%AB%96%E6%96%87%E8%88%87%E8%A6%8F%E7%AF%84--other-papers-and-specifications)
 		- [比特幣 全節點 & 輕量級節點](#%E6%AF%94%E7%89%B9%E5%B9%A3-%E5%85%A8%E7%AF%80%E9%BB%9E--%E8%BC%95%E9%87%8F%E7%B4%9A%E7%AF%80%E9%BB%9E)
 		- [:zap:閃電網路節點實現 | Lightning network node implementation](#zap%E9%96%83%E9%9B%BB%E7%B6%B2%E8%B7%AF%E7%AF%80%E9%BB%9E%E5%AF%A6%E7%8F%BE--lightning-network-node-implementation)
+		- [:zap:閃電網路 插件](#zap%E9%96%83%E9%9B%BB%E7%B6%B2%E8%B7%AF-%E6%8F%92%E4%BB%B6)
 		- [:zap:閃電網路 app](#zap%E9%96%83%E9%9B%BB%E7%B6%B2%E8%B7%AF-app)
 			- [:moneybag:錢包 | Wallet](#moneybag%E9%8C%A2%E5%8C%85--wallet)
 				- [桌面 + ios + android](#%E6%A1%8C%E9%9D%A2--ios--android)
@@ -35,38 +33,6 @@
 		- [巴比特](#%E5%B7%B4%E6%AF%94%E7%89%B9)
 <!-- TOC END -->
 
-
-## 比特幣資源 | Bitcoin resources
-比特幣是一種基於去中心化，採用點對點網路與共識主動性，開放原始碼，以區塊鏈作為底層技術的加密貨幣，比特幣由中本聰於2008年10月31日發表論文。
-
-### 區塊鏈概述 | Blockchain overview
-
-* [區塊鏈技術漫談](區塊鏈技術漫談.md)
-
-### 比特幣的基礎知識 | Basic knowledge of Bitcoin
-* :clapper:**[比特幣和區塊鏈到底是啥？礦機挖礦咋回事？李永樂老師講比特幣(1)](https://www.youtube.com/watch?v=g_fSistU3MQ)**
-* :clapper:**[比特幣交易如何防偽？私鑰公鑰地址啥意思？李永樂老師講比特幣(2)](
-https://www.youtube.com/watch?v=pbAVauYsqP0)**
-* :clapper:[你有疑惑過比特幣(與其他加密貨幣)的運作原理嗎？(純英文)](https://youtu.be/bBC-nXj3Ng4)
-* :clapper:[你有疑惑過比特幣(與其他加密貨幣)的運作原理嗎？(簡中字幕)](https://www.bilibili.com/video/av12465079)
-* Binance 學院：
-	* [區塊鏈](https://www.binance.vision/zt/blockchain)
-	* [經濟](https://www.binance.vision/zt/economics)
-	* [安全](https://www.binance.vision/zt/security)
-		* [什麼是挖礦劫持](/article/Binance-安全/什麼是挖礦劫持.md)
-		* [什麼是粉塵攻擊](/article/Binance-安全/什麼是粉塵攻擊.md)
-		* [什麼是51％的攻擊](/article/Binance-安全/什麼是51％的攻擊.md)
-		* [什麼是重放攻擊](/article/Binance-安全/什麼是重放攻擊.md)
-		* [什麼是DoS攻擊](/article/Binance-安全/什麼是DoS攻擊.md)
-		* [女巫攻擊](/article/Binance-安全/女巫攻擊.md)
-		* [什麽是公鑰密碼學](/article/Binance-安全/什麽是公鑰密碼學.md)
-		* [加密學的歷史](/article/Binance-安全/加密學的歷史.md)
-		* [什麼是多重簽名錢包](/article/Binance-安全/什麼是多重簽名錢包.md)
-		* [普遍安全原則](/article/Binance-安全/普遍安全原則.md)
-* :page_facing_up:**[比特幣：一種點對點的電子現金系統 繁中](https://github.com/ChenPoWei/bitcoin_whitepaper_zh)**
-* :closed_book:**[Mastering Bitcoin 第二版 繁中](https://forum.cypherpunks.tech/t/topic/131)**
-* 課程-[課程：區塊鏈技術與應用](https://docs.google.com/document/d/1R2lQ3NN6IFYT3fQ2G5D8TRcTw2bd4JTNMW8QbKimu8Q/edit?fbclid=IwAR3lpqDPNpelERgr_KHaHCBRI0R0QXQUn2tifwCEzfpXJpX8XWaHzPrqn5s#heading=h.3n87a6jtx1p1)
-* 課程-[課程：以太坊原理與應用開發](https://docs.google.com/document/d/16V3HBwE78-vOex58P8s59TMxifhQi85_-whUd1ACd40/edit?fbclid=IwAR3mVk1wy40fglSFmNEi-CrELvmjv963Zdu0wQING4SSE4IA0dd9JzDpWdQ#heading=h.3n87a6jtx1p1)
 
 ## :zap:閃電網路協議 | Lightning Network Protocol
 閃電網絡（英語：Lightning Network）是工作在區塊鏈上（主要面向比特幣）的第二層支付協議。其設計目的是實現交易雙方的即時交易，而區塊鏈的交易頻率則受限於其容量。
@@ -152,6 +118,10 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)**
 * [lightningnetwork/lightning-onion](https://github.com/lightningnetwork/lightning-onion) - 該存儲庫包含Lightning Network的洋蔥路由協議的實現。(Golang)
 * [nayutaco/ptarmigan](https://github.com/nayutaco/ptarmigan) - 符合C ++ BOLT標準的Lightning網路實現[Incomplete]
 * [LightningPeach/lpd](https://github.com/LightningPeach/lpd) - 是Rust語言中Lightning Network節點的部分實現。
+* [rust-bitcoin/rust-lightning](https://github.com/rust-bitcoin/rust-lightning) - 用rust程式語言實現，完成度20%
+
+### :zap:閃電網路 插件
+* **[lightningd/plugins](https://github.com/lightningd/plugins) - 支持的插件挺多的，值得參考**
 
 ### :zap:閃電網路 app
 * [These are the Top 10 Lightning Apps out right now](https://kintu.co/lightning-apps/)
@@ -181,6 +151,7 @@ https://www.youtube.com/watch?v=pbAVauYsqP0)**
 	* [BlueWallet](https://github.com/BlueWallet/BlueWallet)-使用React Native和BlockCypher API構建。
 	> [在Mac OSX上運行LNDHub](https://medium.com/@jpthor/running-lndhub-on-mac-osx-5be6671b2e0c)-如何在Mac OSX上部署和運行LNDHub實例並連接到BlueWallet。
 	* [Bitpie](https://bitpie.com) - iOS 和 Android 上的多幣種錢包，目前已適用於閃電網路。
+	* [Hoo虎符钱包](https://hoo.com) - 中國首家支持閃電網路Lightning Network的錢包。
 
 * **Android**
 	* [Eclair Mobile](https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2)
